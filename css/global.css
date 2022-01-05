@@ -21,7 +21,7 @@ header.whiteCase{background-color: transparent; border: none;}
 header.whiteCase div h1 a{background-image: url('../images/logo_white.png');}
 header.whiteCase div nav ul li a{color: white;}
 header.whiteCase div > a{background-color: rgba(255, 255, 255, 0.6); color: #100646;}
-
+/* 메인 화이트 해더 호버*/
 header.whiteCase:hover{background-color: white; border: none;}
 header.whiteCase:hover div h1 a{background-image: url('../images/logo.png');}
 header.whiteCase:hover div nav ul li a{color: black;}
