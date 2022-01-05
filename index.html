@@ -7,7 +7,14 @@
     <!-- Iphone 모바일 확대 방지 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0 ,maximum-scale=1.0, user-scalable=0"">
     <title>LIVEOME</title>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- material icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- css  -->
     <link rel="stylesheet" href="css/import.css">
+    <!-- js -->
+    <script src="js/main.js"></script>
 </head>
 <body>
     <div class="mainPage">
@@ -28,7 +35,7 @@
         </header>
 
         <div class="mainArea">
-            <div>
+            <div class="BGArea" data-menu="white">
                 <div class="width01">
                     <h2>
                         The future of
@@ -36,18 +43,23 @@
                         <span>is inside of us</span>
                     </h2>
                     <p>더 나은 미래를 향한 끊임없는 연구개발로 혁신을 선도합니다.</p>
-                    <a href="">CONTACT US &gt;</a>
-                    <div></div>
+                    <a href="">CONTACT US <span class="material-icons-outlined">arrow_forward_ios</span></a>
+                    <div class="scrollArea">
+                        <span></span>
+                        SCROLL
+                    </div>
                 </div>
             </div>
 
-            <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
+            <div class="contentsArea">
+                <ul class="width01">
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Pipeline</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </div>
         </div>
 
         <footer>

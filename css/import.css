@@ -1,10 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&family=Sora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&family=Sora:wght@300;400;600&display=swap');
 /* 
     Roboto
         - 500
     noto sans
         - 300
         - 900
+    BebasNenu
+        - 400
+    sora
+        - 300
+        - 400
+        - 600
 */
 
 @import url('reset.css');

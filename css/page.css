@@ -1,0 +1,25 @@
+/* 메인 */
+.mainArea > *{height: 100vh;}
+.mainArea .BGArea{ color: white; background: url('../images/main_BG.png') no-repeat center / cover;}
+.mainArea .BGArea > div{height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; position: relative;}
+.mainArea .BGArea > div :is(h2, p){max-width: 920px; width: 100%;}
+.mainArea .BGArea > div h2{font-family: 'Bebas Neue'; font-size: 84px; font-weight: 400; line-height: 120px; letter-spacing: 36px; margin-bottom: 50px;}
+.mainArea .BGArea > div h2 span{font-family: inherit; display: block; position: relative; z-index: 0;}
+.mainArea .BGArea > div h2 span::before{content: ''; position: absolute; left: 0; bottom: 25px; width: 100%; height: 35px; background-color: #e09302; z-index: -1;}
+.mainArea .BGArea > div p{font-size: 25px; font-weight: 300;}
+.mainArea .BGArea > div > a{font-family: 'Sora'; position: absolute; right: 0; bottom: 70px; font-size: 14px;}
+.mainArea .BGArea > div > a::after{content: ''; position: absolute; left: 0; bottom: -15px; width: 100%; height: 1px; background-color: white;}
+.mainArea .BGArea > div > a span{vertical-align: bottom; padding-left: 10px;}
+.mainArea .BGArea > div .scrollArea{font-family: 'Sora'; position: absolute; left: 70px; top: 50%; transform: translateY(-50%); font-size: 14px; font-weight: 300;}
+.mainArea .BGArea > div .scrollArea span{display: block; width: 2px; height: 40px; background-color: rgba(255, 255, 255, 0.5); margin: 0 auto 20px; position: relative;}
+.mainArea .BGArea > div .scrollArea span::after{content: ''; position: absolute; left: 50%; top: 8px; transform: translateX(-50%); width: 6px; height: 6px; background-color: white; border-radius: 100%;}
+
+.mainArea .contentsArea ul{height: 100%; padding-top: 110px;  box-sizing: border-box; display: flex; flex-direction: column; flex-wrap: wrap; align-content: space-between;}
+.mainArea .contentsArea ul li{width: calc((100% - 20px) / 3); background-repeat: no-repeat; background-position: center; background-size: cover;}
+.mainArea .contentsArea ul li:not(:nth-child(3)){height: calc((88.6% - 10px) /2 ); margin-bottom: 10px;}
+.mainArea .contentsArea ul li:nth-child(1){background-image: url('../images/main_BG01.png'); }
+.mainArea .contentsArea ul li:nth-child(2){background-image: url('../images/main_BG02.png'); }
+.mainArea .contentsArea ul li:nth-child(3){background-image: url('../images/main_BG03.png'); height: 88.6%;}
+.mainArea .contentsArea ul li:nth-child(4){background-image: url('../images/main_BG04.png'); }
+.mainArea .contentsArea ul li:nth-child(5){background-image: url('../images/main_BG05.png'); }
+.mainArea .contentsArea ul li a{font-family: 'Sora'; display: block; height: 100%; padding: 6.8%; font-size: 30px; font-weight: 600; color: white; text-transform: uppercase;}
