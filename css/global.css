@@ -2,8 +2,34 @@
 .material-icons-outlined{font-family: 'Material Icons';}
 
 /* 컨텐츠 크기 */
-/* 1760px */
-.width01{max-width: 1760px; margin: 0 auto;}
+[class *= "width"]{margin: 0 auto;}
+/* 1760px - 메인 */
+.width01{max-width: 1760px;}
+/* 1200px - 서브 */
+.width02{max-width: 1200px;}
+
+.hidden{height: 0.001px; overflow: hidden;}
+
+/* 서브페이지 */
+/* 서브페이지 - 타이틀 */
+.subPage > [class $= "Page"]{padding: 110px 0 140px;}
+.subPage > [class $= "Page"] .subTitle{font-family: 'Bebas Neue'; font-size: 86px; line-height: 300px; color: white; text-align: center; letter-spacing: 40px; background-repeat: no-repeat; background-position: center; background-size: cover;}
+/* 서브타이틀 - 회사 */
+.subPage .overviewPage .subTitle{background-image: url('../images/company-BG.png');}
+/* 서브페이지 - 서브 타이틀 */
+.subPage > [class $= "Page"] h3{font-size: 32px; font-weight: 500; text-align: center; margin-bottom: 50px;}
+/* 서브페이지 - 컨텐츠 사이 간격 */
+.subPage > [class $= "Page"] > *[class $= "Area"]:not(:last-child){margin-bottom: 140px;}
+
+
+
+/* 서브페이지 - 서브메뉴 */
+.subPage .subMenu{display: flex; margin-bottom: 90px;}
+.subPage .subMenu li{flex: 1; }
+.subPage .subMenu :is(li.active , li:hover) a{border-color: #722282;}
+.subPage .subMenu li a{display: block; font-size: 24px; font-weight: 700;  color: rgba(0, 0, 0, 0.6); height: 90px; display: flex; justify-content: center; align-items: center; border-bottom: 4px solid rgba(0, 0, 0, 0.1); box-sizing: border-box;}
+.subPage .subMenu :is(li.active , li:hover) a{color: #722282;}
+
 
 /* 해더 */
 header{position: fixed; left: 0; top: 0; width: 100%; height: 110px; background-color: white; border-bottom: 1px solid rgba(0, 0, 0, 0.5); z-index: 100; transition: 0.5s background-color;}
