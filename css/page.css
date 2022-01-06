@@ -73,7 +73,6 @@ header.whiteCase + .mainArea .BGArea > div h2 span::before{ animation: mainTitle
 .companyPage .CIArea p{font-size: 22px;}
 
 /* company - 리더쉽 팀 */
-.companyPage .personArea{}
 .companyPage .personArea > li{display: flex; justify-content: space-between; align-items: center;}
 .companyPage .personArea > li:not(:last-child){margin-bottom: 40px;}
 .companyPage .personArea > li div{display: flex; flex-direction: column; align-items: center; padding: 0 6%;}
@@ -87,3 +86,12 @@ header.whiteCase + .mainArea .BGArea > div h2 span::before{ animation: mainTitle
 .companyPage .personArea > li:nth-child(3) ul::before{background-image: url('../images/company-leadership-img03.png');}
 .companyPage .personArea > li ul li{font-size: 20px; line-height: 1.6; text-transform: uppercase; display: flex; align-items: center;}
 .companyPage .personArea > li ul li::before{content: '·'; font-size: 1.5em; line-height: 0; padding: 5px;}
+
+/* company - contact us */
+.companyPage .contactUsArea iframe{width: 100%; margin-bottom: 40px;}
+.companyPage .contactUsArea img{max-width: 100%; margin-bottom: 35px;}
+.companyPage .contactUsArea b{display: block; font-size: 22px; font-weight: 700; margin-bottom: 20px;}
+.companyPage .contactUsArea dl{display: flex; font-size: 20px; line-height: 1.6;}
+.companyPage .contactUsArea dl:last-of-type{margin-bottom: 90px;}
+.companyPage .contactUsArea dl dt{width: 85px; font-weight: 500;}
+.companyPage .contactUsArea a{display: block; width: 250px; line-height: 80px; margin: 0 auto; font-size: 26px; font-weight: 500; color: white; text-align: center; background-color: black;}

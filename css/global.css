@@ -9,7 +9,7 @@
 .width02{max-width: 1200px;}
 
 /* 텍스트 접근성 - 안보이게 처리 */
-.hidden{height: 0.001px; overflow: hidden;}
+.textHidden{height: 0.001px; overflow: hidden; margin: 0; padding: 0;}
 
 /* 이미지 박스 */
 /* .imgBox{text-indent: -9999px; background-repeat: no-repeat; background-position: center; background-size: cover;} */
