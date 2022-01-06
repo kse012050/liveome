@@ -8,7 +8,11 @@
 /* 1200px - 서브 */
 .width02{max-width: 1200px;}
 
+/* 텍스트 접근성 - 안보이게 처리 */
 .hidden{height: 0.001px; overflow: hidden;}
+
+/* 이미지 박스 */
+/* .imgBox{text-indent: -9999px; background-repeat: no-repeat; background-position: center; background-size: cover;} */
 
 /* 서브페이지 */
 /* 서브페이지 - 타이틀 */
@@ -20,8 +24,6 @@
 .subPage > [class $= "Page"] h3{font-size: 32px; font-weight: 500; text-align: center; margin-bottom: 50px;}
 /* 서브페이지 - 컨텐츠 사이 간격 */
 .subPage > [class $= "Page"] > *[class $= "Area"]:not(:last-child){margin-bottom: 140px;}
-
-
 
 /* 서브페이지 - 서브메뉴 */
 .subPage .subMenu{display: flex; margin-bottom: 90px;}
