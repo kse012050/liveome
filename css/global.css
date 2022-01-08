@@ -18,10 +18,14 @@
 /* 서브페이지 - 타이틀 */
 .subPage > [class $= "Page"]{padding: 110px 0 140px;}
 .subPage > [class $= "Page"] .subTitle{font-family: 'Bebas Neue'; font-size: 86px; line-height: 300px; color: white; text-align: center; letter-spacing: 40px; background-repeat: no-repeat; background-position: center; background-size: cover;}
-/* 서브타이틀 - 회사 */
+/* 서브타이틀 - company */
 .subPage.companyPage .subTitle{background-image: url('../images/company-BG.png');}
+/* 서브타이틀 - technology */
 .subPage.technologyPage .subTitle{background-image: url('../images/technology-BG.png');}
+/* 서브타이틀 - pipeline */
 .subPage.pipelinePage .subTitle{background-image: url('../images/pipeline-BG.png');}
+/* 서브타이틀 - 회사 */
+.subPage.careersPage .subTitle{background-image: url('../images/careers-BG.png');}
 
 /* 서브페이지 - 서브메뉴 */
 .subPage .subMenu{display: flex; margin-bottom: 90px;}
@@ -50,6 +54,26 @@
 .subPage > [class $= "Page"] h4 ~ .contentsBox ~ p{margin-top: 45px;}
 /* 서브페이지 - 컨텐츠 사이 간격 */
 .subPage > [class $= "Page"] > section:not(:last-child){margin-bottom: 140px;}
+
+
+/* 게시판 */
+/* 게시판 목록 */
+.boardBox .boardArea{display: flex; flex-wrap: wrap; justify-content: space-between;}
+.boardBox .boardArea li{width: 31.66%; background-color: #f7f7f7;}
+.boardBox .boardArea li:not(:nth-child(-n + 3)){margin-top: 2.51%;}
+.boardBox .boardArea li a{display: flex; flex-direction: column; width: 100%; min-height: 345px; padding: 50px 40px; box-sizing: border-box;}
+.boardBox .boardArea li a b{display: block; font-size: 22px; margin-bottom: 25px;}
+.boardBox .boardArea li a :is(p , dl){font-size: 20px; line-height: 1.65;}
+.boardBox .boardArea li a dl{display: flex;}
+.boardBox .boardArea li a dl dt::after{content: ':'; padding: 0 5px;}
+.boardBox .boardArea li a time{margin-top: auto; font-size: 20px; color: rgba(0, 0, 0, 0.5);}
+/* 게시판 페이지 */
+.boardBox .pageBox{font-size: 18px; font-weight: 500; display: flex; justify-content: center; align-items: center; margin-top: 45px;}
+.boardBox .pageBox > a{display: flex; align-items: center;}
+.boardBox .pageBox > a span{font-size: 20px;}
+.boardBox .pageBox ol{display: flex; justify-content: center; align-items: center;}
+.boardBox .pageBox ol li a{padding: 0 15px; color: #a1a1a1;}
+.boardBox .pageBox ol :is(li.active , li:hover) a{color: black;}
 
 
 
