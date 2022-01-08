@@ -24,8 +24,10 @@
 .subPage.technologyPage .subTitle{background-image: url('../images/technology-BG.png');}
 /* 서브타이틀 - pipeline */
 .subPage.pipelinePage .subTitle{background-image: url('../images/pipeline-BG.png');}
-/* 서브타이틀 - 회사 */
+/* 서브타이틀 - careers */
 .subPage.careersPage .subTitle{background-image: url('../images/careers-BG.png');}
+/* 서브타이틀 - careers */
+.subPage.newsPage .subTitle{background-image: url('../images/news-BG.png');}
 
 /* 서브페이지 - 서브메뉴 */
 .subPage .subMenu{display: flex; margin-bottom: 90px;}
