@@ -21,6 +21,7 @@
 /* 서브타이틀 - 회사 */
 .subPage.companyPage .subTitle{background-image: url('../images/company-BG.png');}
 .subPage.technologyPage .subTitle{background-image: url('../images/technology-BG.png');}
+.subPage.pipelinePage .subTitle{background-image: url('../images/pipeline-BG.png');}
 
 /* 서브페이지 - 서브메뉴 */
 .subPage .subMenu{display: flex; margin-bottom: 90px;}
@@ -35,7 +36,7 @@
 .subPage > [class $= "Page"] h4{text-align: center;}
 .subPage > [class $= "Page"] h4 mark{font-size: 40px; font-weight: 700; line-height: 1.125;}
 /* 서브페이지 - 서브 텍스트 (색상) */
-.subPage > [class $= "Page"] h4 ~ p{font-size: 22px; line-height: 1.454;}
+.subPage > [class $= "Page"] h4 ~ p{font-size: 22px; line-height: 1.454; color: #000a29;}
 .subPage > [class $= "Page"] h4 ~ small{display: block; font-size: 16px; color: rgba(0, 10, 41, 0.7);}
 .subPage > [class $= "Page"] h4 ~ .contentsBox{margin-top: 70px;}
 .subPage > [class $= "Page"] h4 ~ span{display: block; font-size: 20px; color: rgba(0, 0, 0, 0.6); margin-top: 20px;}
