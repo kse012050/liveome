@@ -39,7 +39,7 @@ header.whiteCase + .mainArea .BGArea > div h2 span::before{ animation: mainTitle
 .mainArea .contentsArea ul li a{font-family: 'Sora'; display: block; height: 100%; padding: 6.8%; font-size: 30px; font-weight: 600; color: white; text-transform: uppercase;}
 
 
-/* 회사 */
+/* 회사 company */
 .overviewPage{overflow: hidden;}
 /* company - 회사개요 - 회사개요 */
 .companyPage .overviewArea > p{font-size: 18px; font-weight: 500; line-height: 2; color: white; text-align: center; background: rgb(108,177,213); background: linear-gradient(90deg, rgba(108,177,213,1) 0%, rgba(154,125,208,1) 100%); position: relative; margin-bottom: 20px;}
@@ -95,3 +95,19 @@ header.whiteCase + .mainArea .BGArea > div h2 span::before{ animation: mainTitle
 .companyPage .contactUsArea dl:last-of-type{margin-bottom: 90px;}
 .companyPage .contactUsArea dl dt{width: 85px; font-weight: 500;}
 .companyPage .contactUsArea a{display: block; width: 250px; line-height: 80px; margin: 0 auto; font-size: 26px; font-weight: 500; color: white; text-align: center; background-color: black;}
+
+
+/* 기술 technology */
+.subPage.technologyPage > section{text-align: center;}
+.subPage > [class $= "Page"] h4 ~ p{font-size: 22px; line-height: 1.454;}
+.subPage > [class $= "Page"] h4 ~ small{display: block; font-size: 16px; color: rgba(0, 10, 41, 0.7);}
+.subPage > [class $= "Page"] h4 ~ img{max-width: 100%; margin-top: 70px;}
+.subPage > [class $= "Page"] h4 ~ span{display: block; font-size: 20px; color: rgba(0, 0, 0, 0.6); margin-top: 20px;}
+.subPage > [class $= "Page"] h4[data-bigText]{position: relative;}
+.subPage > [class $= "Page"] h4[data-bigText]::before{content: attr(data-bigText); font-size: 220px; font-weight: 700; color: rgba(114, 34, 130, 0.2); letter-spacing: 10px;}
+.subPage > [class $= "Page"] h4[data-bigText] mark{position: absolute; left: 50%; top: 50%; transform: translate(-50% , -50%);}
+
+.subPage > [class $= "Page"] h4 + p{margin-top: 20px;}
+.subPage > [class $= "Page"] h4 + small{margin-top: 20px;}
+.subPage > [class $= "Page"] h4 + p + small{margin-top: 20px;}
+.subPage > [class $= "Page"] h4 ~ img ~ p{margin-top: 45px;}
