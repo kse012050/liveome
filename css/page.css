@@ -151,7 +151,7 @@ header.whiteCase + .mainArea .BGArea > div h2 span::before{ animation: mainTitle
 .etcPage .questionArea fieldset ul li div input[type="checkbox"]{width: 24px; height: 24px; margin-right: 10px;}
 .etcPage .questionArea fieldset ul li div label{font-size: 20px; font-weight: 500; color: #333333;}
 .etcPage .questionArea fieldset ul li.required > label::after{content: '*'; color: #eb3654;}
-.etcPage .questionArea fieldset input[type="submit"]{width: 175px; height: 60px; font-size: 22px; font-weight: 500; color: white; background-color: black;}
+/* .etcPage .questionArea fieldset input[type="submit"]{width: 175px; height: 60px; font-size: 22px; font-weight: 500; color: white; background-color: black;} */
 
 
 /* etc -  개인정보처리방침 */
@@ -161,3 +161,5 @@ header.whiteCase + .mainArea .BGArea > div h2 span::before{ animation: mainTitle
 .etcPage .privacyArea h2 ~ * b{font-weight: 500;}
 .etcPage .privacyArea p{margin-bottom: 40px;}
 .etcPage .privacyArea ol{list-style: decimal; list-style-position: inside;}
+
+

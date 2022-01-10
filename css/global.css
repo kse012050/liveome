@@ -11,6 +11,9 @@
 /* 텍스트 접근성 - 안보이게 처리 */
 .textHidden{height: 0.001px; overflow: hidden;}
 
+/* 버튼 */
+.btnCase01{display: block; margin: 0 auto; width: 175px; line-height: 60px; font-size: 22px; font-weight: 500; color: white; text-align: center; background-color: black;}
+
 /* 이미지 박스 */
 /* .imgBox{text-indent: -9999px; background-repeat: no-repeat; background-position: center; background-size: cover;} */
 
@@ -57,6 +60,22 @@
 .subPage > [class $= "Page"] h4 ~ .contentsBox ~ p{margin-top: 45px;}
 /* 서브페이지 - 컨텐츠 사이 간격 */
 .subPage > [class $= "Page"] > section:not(:last-child){margin-bottom: 140px;}
+
+/* 서브페이지 - 디테일 페이지 */
+.detailBox strong{display: block; font-size: 30px; font-weight: 500; margin-bottom: 40px;}
+.detailBox strong time{display: block; font-size: 24px; color: rgba(0, 0, 0, 0.5); margin-top: 20px;}
+.detailBox .contentsBox img{max-width: 100%; margin-bottom: 50px;}
+.detailBox .contentsBox *{font-size: 20px; line-height: 1.5;}
+.detailBox .prevNext{border-width: 2px 0; border-style: solid; border-color: rgba(0, 0, 0, 0.2); margin-top: 50px;}
+.detailBox .prevNext a{display: flex; align-items: center; height: 70px; padding: 0 30px; font-size: 20px; color: rgba(0, 0, 0, 0.5);}
+.detailBox .prevNext a::before{color: black; margin-right: 80px;}
+.detailBox .prevNext a:nth-child(1):before{content: '이전글';}
+.detailBox .prevNext a:nth-child(2):before{content: '다음글';}
+.detailBox .prevNext a::after{content: ''; order: -1; width: 17px; height: 10px; background-repeat: no-repeat; background-position: center; background-size: cover; margin-right: 20px;}
+.detailBox .prevNext a:nth-child(1):after{background-image: url('../images/detail-prev.png');}
+.detailBox .prevNext a:nth-child(2):after{background-image: url('../images/detail-next.png');}
+.detailBox .prevNext a:not(:last-child){border-bottom: 2px solid rgba(0, 0, 0, 0.2);}
+.detailBox > a{margin-top: 60px;}
 
 
 /* 게시판 */
