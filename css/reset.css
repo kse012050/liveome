@@ -57,7 +57,7 @@ html {
    -o-text-size-adjust: none; /*old versions of Opera*/
 }
 /* Iphone input select box reset */
-input , select{-webkit-appearance: none; -webkit-border-radius:0;}
+/* input , select{-webkit-appearance: none; -webkit-border-radius:0;} */
 
 /* input search 'X' remove */
 input[type="submit"] , input[type="reset"]{cursor: pointer;}

@@ -134,3 +134,20 @@ header.whiteCase + .mainArea .BGArea > div h2 span::before{ animation: mainTitle
 .policyPage .policyArea li:nth-child(-n + 6)::after{content: ''; position: absolute; right: 0; bottom: 0; width: 40px; height: 40px; background-color: white; transform: translate(50% , 50%); z-index: 1;}
 .policyPage .policyArea li img{margin-bottom: 10px;}
 .policyPage .policyArea li p{font-size: 20px; line-height: 1.3; text-align: center;}
+
+
+/* etc -  문의 */
+.etcPage .questionArea{max-width: 540px; margin: 0 auto; text-align: center;}
+.etcPage .questionArea fieldset legend{font-size: 42px; font-weight: 700; margin-bottom: 50px;}
+.etcPage .questionArea fieldset ul{text-align: left; margin-bottom: 40px;}
+.etcPage .questionArea fieldset ul li{}
+.etcPage .questionArea fieldset ul li:not(:last-child){margin-bottom: 30px;}
+.etcPage .questionArea fieldset ul li > label{display: block; font-size: 22px; font-weight: 500; color: #333333; margin-bottom: 15px;}
+.etcPage .questionArea fieldset ul li :is(input , textarea){border: 1px solid #cccccc; border-radius: 10px; box-sizing: border-box;}
+.etcPage .questionArea fieldset ul li > *:nth-child(2){width: 100%; font-size: 25px; line-height: 60px; padding: 0 10px; }
+.etcPage .questionArea fieldset ul li textarea{resize: none; min-height: 200px; margin-bottom: 15px;}
+.etcPage .questionArea fieldset ul li div{display: flex; align-items: center;}
+.etcPage .questionArea fieldset ul li div input[type="checkbox"]{width: 24px; height: 24px; margin-right: 10px;}
+.etcPage .questionArea fieldset ul li div label{font-size: 20px; font-weight: 500; color: #333333;}
+.etcPage .questionArea fieldset ul li.required > label::after{content: '*'; color: #eb3654;}
+.etcPage .questionArea fieldset input[type="submit"]{width: 175px; height: 60px; font-size: 22px; font-weight: 500; color: white; background-color: black;}

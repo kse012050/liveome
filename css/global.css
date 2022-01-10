@@ -17,6 +17,7 @@
 /* 서브페이지 */
 /* 서브페이지 - 타이틀 */
 .subPage > [class $= "Page"]{padding: 110px 0 140px;}
+.subPage > [class $= "Area"]{padding: calc(110px + 90px) 0 140px;}
 .subPage > [class $= "Page"] .subTitle{font-family: 'Bebas Neue'; font-size: 86px; line-height: 300px; color: white; text-align: center; letter-spacing: 40px; background-repeat: no-repeat; background-position: center; background-size: cover;}
 /* 서브타이틀 - company */
 .subPage.companyPage .subTitle{background-image: url('../images/company-BG.png');}
