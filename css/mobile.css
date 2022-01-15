@@ -124,18 +124,18 @@
 
 
     /* 푸터 */
-    footer{padding: 60px 0; background-color: #164194;}
-    footer div{display: flex; flex-direction: column; align-items: center; position: relative;}
-    footer div h2{position: absolute; left: 0; top: 0; max-width: 210px;}
+    footer{padding: 70px 0; background-color: #164194;}
+    footer div{display: flex; flex-direction: column; position: relative;}
+    footer div h2{max-width: 185px; margin-bottom: 50px;}
     footer div h2 img{width: 100%;}
-    footer div address{display: flex; flex-wrap: wrap; max-width: 700px; font-style: normal; font-size: 17px; font-weight: 300; color: rgba(255, 255, 255, 0.7); line-height: 1.764; margin-bottom: 25px;}
-    footer div address b{width: 100%;}
-    footer div address dl{display: flex; margin-right: 15px;}
+    footer div address{display: flex; flex-wrap: wrap; max-width: 700px; font-style: normal; font-size: 22px; font-weight: 300; color: rgba(255, 255, 255, 0.7); line-height: 1.636; margin-bottom: 30px;}
+    footer div address b{width: 100%; margin-bottom: 10px;}
+    footer div address dl{display: flex; margin-right: 20px;}
     footer div address dl dt::after{content:':'; padding: 0 5px;}
-    footer div p{max-width: 700px; width: 100%; font-size: 13px; color: rgba(255, 255, 255, 0.3);}
-    footer div ul{position: absolute; right: 0; top: 0; display: flex;}
-    footer div ul li:not(:last-child){margin-right: 55px;}
-    footer div ul li a{font-size: 16px; font-weight: 900; color: rgba(255, 255, 255, 0.6);}
+    footer div p{max-width: 700px; width: 100%; font-size: 17px; color: rgba(255, 255, 255, 0.3);}
+    footer div ul{position: absolute; right: 0; top: 10px; display: flex;}
+    footer div ul li:not(:last-child){margin-right: 35px;}
+    footer div ul li a{font-size: 20px; font-weight: 900; color: rgba(255, 255, 255, 0.6);}
 
 
 
