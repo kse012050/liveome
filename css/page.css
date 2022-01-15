@@ -37,7 +37,7 @@
     .mainArea .contentsArea ul li:nth-child(3){background-image: url('../images/main_BG03.png'); height: 88.6%;}
     .mainArea .contentsArea ul li:nth-child(4){background-image: url('../images/main_BG04.png'); }
     .mainArea .contentsArea ul li:nth-child(5){background-image: url('../images/main_BG05.png'); }
-    .mainArea .contentsArea ul li a{font-family: 'Sora'; display: block; height: 100%; padding: 6.8%; font-size: 30px; font-weight: 600; color: white; text-transform: uppercase;}
+    .mainArea .contentsArea ul li a{font-family: 'Sora'; display: block; height: 100%; padding: 6.8%; font-size: 30px; font-weight: 600; color: white; text-transform: uppercase; box-sizing: border-box;}
 
 
     /* 회사 company */
