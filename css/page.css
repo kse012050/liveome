@@ -160,12 +160,19 @@
     /* 직업 */
     /* 직업 - 제도 또는 근무환경 */
     .policyPage .policyArea{display: flex; flex-wrap: wrap; text-align: center;}
-    .policyPage .policyArea li{width: calc(100% / 3); height: 300px; padding: 70px; box-sizing: border-box;}
+    .policyPage .policyArea li{width: calc(100% / 3); height: 300px; padding: 10px; box-sizing: border-box; position: relative;}
+    .policyPage .policyArea li .imgBox{height: 100%; background-repeat: no-repeat; background-position: center; background-size: cover;}
+    .policyPage .policyArea li:nth-child(1) .imgBox{background-image: url('../images/careers-policy-img01.png');}
+    .policyPage .policyArea li:nth-child(2) .imgBox{background-image: url('../images/careers-policy-img02.png');}
+    .policyPage .policyArea li:nth-child(3) .imgBox{background-image: url('../images/careers-policy-img03.png');}
+    .policyPage .policyArea li:nth-child(4) .imgBox{background-image: url('../images/careers-policy-img04.png');}
+    .policyPage .policyArea li:nth-child(5) .imgBox{background-image: url('../images/careers-policy-img05.png');}
+    .policyPage .policyArea li:nth-child(6) .imgBox{background-image: url('../images/careers-policy-img06.png');}
+    .policyPage .policyArea li:nth-child(7) .imgBox{background-image: url('../images/careers-policy-img07.png');}
+    .policyPage .policyArea li:nth-child(8) .imgBox{background-image: url('../images/careers-policy-img08.png');}
     .policyPage .policyArea li:not(:nth-child(3n)){border-right: 1px solid #d4bcd9;}
     .policyPage .policyArea li:nth-child(-n + 6){border-bottom: 1px solid #d4bcd9; position: relative;}
-    .policyPage .policyArea li:nth-child(-n + 6)::after{content: ''; position: absolute; right: 0; bottom: 0; width: 40px; height: 40px; background-color: white; transform: translate(50% , 50%); z-index: 1;}
-    .policyPage .policyArea li img{margin-bottom: 10px;}
-    .policyPage .policyArea li p{font-size: 20px; line-height: 1.3; text-align: center;}
+    .policyPage .policyArea li:not(:nth-child(3n))::after{content: ''; position: absolute; right: 0; bottom: 0; width: 40px; height: 40px; background-color: white; transform: translate(50% , 50%); z-index: 1;}
 
 
     /* etc */
