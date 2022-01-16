@@ -137,11 +137,14 @@
     .subPage .IBDPage .CDUCArea li strong{display: block; font-size: 60px; margin-bottom: 30px;}
     .subPage .IBDPage .CDUCArea li b{display: block; font-size: 32px; font-weight: 500; line-height: 1.4; margin-bottom: 20px;}
     .subPage .IBDPage .CDUCArea li p{font-size: 20px; line-height: 1.5;}
+    .subPage .IBDPage .scaleArea .imgBox{background-image: url('../images/pipeline-IBD-img01.png'); height: 522px;}
+    .subPage .IBDPage .develoArea .imgBox{background-image: url('../images/pipeline-IBD-img02.png'); height: 536px;}
     .subPage .IBDPage dl{width: 100%; max-width: 1000px; margin: 0 auto; padding: 40px 0 30px; border: 3px solid #751986; border-radius: 1000px; font-size: 20px;  position: relative; margin-top: 50px;}
     .subPage .IBDPage dl dt{position: absolute; left: 5%; top: 0; padding: 0 40px; font-weight: 500; color: white; line-height: 46px; background-color: #751986; border-radius: 100em; transform: translateY(-50%);}
     .subPage .IBDPage dl dd{color: #751986; line-height: 1.6;}
     .subPage .IBDPage dl.case01{display: flex; justify-content: center; align-items: center;}
     .subPage .IBDPage dl.case01 dd:not(:last-child):after{content: '|'; padding: 0 30px;}
+    .subPage .IBDPage dl.case02 dd::before{content: '·'; padding: 0 5px;}
 
 
     /* 직업 */
