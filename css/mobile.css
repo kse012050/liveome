@@ -16,12 +16,12 @@
     .imgBox *{display: block; text-indent: -9999px;}
 
     /* 버튼 */
-    .btnCase01{display: block; margin: 0 auto; width: 175px; line-height: 60px; font-size: 22px; font-weight: 500; color: white; text-align: center; background-color: black;}
+    .btnCase01{display: block; margin: 0 auto; width: 265px; line-height: 85px; font-size: 30px; font-weight: 500; color: white; text-align: center; background-color: black;}
 
     /* 서브페이지 */
     /* 서브페이지 - 타이틀 */
     .subPage > [class $= "Page"]{padding: 95px 0 140px;}
-    .subPage > [class $= "Area"]{padding: calc(110px + 90px) 0 140px;}
+    .subPage > [class $= "Area"]{padding: calc(95px + 80px) 0 140px;}
     .subPage > [class $= "Page"] .subTitle{font-family: 'Bebas Neue'; font-size: 70px; line-height: 300px; color: white; text-align: center; letter-spacing: 30px; background-repeat: no-repeat; background-position: center; background-size: cover;}
     /* 서브타이틀 - company */
     .subPage.companyPage .subTitle{background-image: url('../images/company-BG.png');}
@@ -88,7 +88,7 @@
     .boardBox .boardArea li{width: calc((100% - 10px) / 2); background-color: #f7f7f7;}
     .boardBox .boardArea li:nth-child(2n + 1){margin-right: 10px;}
     .boardBox .boardArea li:not(:nth-child(-n + 2)){margin-top: 10px;}
-    .boardBox .boardArea li a{display: flex; flex-direction: column; width: 100%; min-height: 330px; padding: 35px; box-sizing: border-box;}
+    .boardBox .boardArea li a{display: flex; flex-direction: column; width: 100%; min-height: 330px; padding: 45px 35px; box-sizing: border-box;}
     .boardBox .boardArea li a b{display: block; font-size: 22px; margin-bottom: 25px;}
     .boardBox .boardArea li a :is(p , dl){font-size: 20px; line-height: 1.65;}
     .boardBox .boardArea li a dl{display: flex;}
@@ -329,23 +329,23 @@
     /* etc */
     .etcPage :is(.questionArea , .privacyArea) :is(legend , h2){font-size: 42px; font-weight: 700; margin-bottom: 50px;}
     /* etc -  문의 */
-    .etcPage .questionArea{max-width: 540px; margin: 0 auto; text-align: center;}
-    .etcPage .questionArea fieldset ul{text-align: left; margin-bottom: 40px;}
+    .etcPage .questionArea{max-width: calc(100% - 80px); width: 640px; margin: 0 auto; text-align: center;}
+    .etcPage .questionArea fieldset ul{text-align: left; margin-bottom: 55px;}
     .etcPage .questionArea fieldset ul li:not(:last-child){margin-bottom: 30px;}
-    .etcPage .questionArea fieldset ul li > label{display: block; font-size: 22px; font-weight: 500; color: #333333; margin-bottom: 15px;}
+    .etcPage .questionArea fieldset ul li > label{display: block; font-size: 24px; font-weight: 500; color: #333333; margin-bottom: 15px;}
     .etcPage .questionArea fieldset ul li :is(input , textarea){border: 1px solid #cccccc; border-radius: 10px; box-sizing: border-box;}
-    .etcPage .questionArea fieldset ul li > *:nth-child(2){width: 100%; font-size: 25px; line-height: 60px; padding: 0 10px; }
+    .etcPage .questionArea fieldset ul li > *:nth-child(2){width: 100%; font-size: 25px; line-height: 70px; padding: 0 10px; }
     .etcPage .questionArea fieldset ul li textarea{resize: none; min-height: 200px; margin-bottom: 15px;}
     .etcPage .questionArea fieldset ul li div{display: flex; align-items: center;}
     .etcPage .questionArea fieldset ul li div input[type="checkbox"]{width: 24px; height: 24px; margin-right: 10px;}
-    .etcPage .questionArea fieldset ul li div label{font-size: 20px; font-weight: 500; color: #333333;}
+    .etcPage .questionArea fieldset ul li div label{font-size: 22px; font-weight: 500; color: #333333;}
     .etcPage .questionArea fieldset ul li.required > label::after{content: '*'; color: #eb3654;}
 
 
     /* etc -  개인정보처리방침 */
     .etcPage .privacyArea h2{padding-bottom: 50px; border-bottom: 1px solid rgba(0, 0, 0, 0.2);}
-    .etcPage .privacyArea h2 small{display: block; font-size: 20px; font-weight: 400; margin-top: 20px;}
-    .etcPage .privacyArea h2 ~ *{font-size: 20px; line-height: 1.6;}
+    .etcPage .privacyArea h2 small{display: block; font-size: 22px; font-weight: 400; margin-top: 20px;}
+    .etcPage .privacyArea h2 ~ *{font-size: 22px; line-height: 1.6363;}
     .etcPage .privacyArea h2 ~ * b{font-weight: 500;}
     .etcPage .privacyArea p{margin-bottom: 40px;}
     .etcPage .privacyArea ol{list-style: decimal; list-style-position: inside;}
