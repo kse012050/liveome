@@ -42,6 +42,8 @@
     .subPage .subMenu :is(li.active , li:hover) a{border-color: #722282;}
     .subPage .subMenu li a{display: block; font-size: 24px; font-weight: 700;  color: rgba(0, 0, 0, 0.6); height: 90px; display: flex; justify-content: center; align-items: center; border-bottom: 4px solid rgba(0, 0, 0, 0.1); box-sizing: border-box;}
     .subPage .subMenu :is(li.active , li:hover) a{color: #722282;}
+    .subPage .subMenu a[href*="pipeline-IBD.html"]::before{content: 'Inflammatory bowel disease (';}
+    .subPage .subMenu a[href*="pipeline-IBD.html"]::after{content: ')';}
 
     /* 서브페이지 - 서브 타이틀 */
     .subPage > [class $= "Page"] h3:not([class]){font-size: 32px; font-weight: 500; text-align: center; margin-bottom: 50px;}
