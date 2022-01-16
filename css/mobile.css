@@ -63,7 +63,6 @@
     .subPage > [class $= "Page"] h4 + small{margin-top: 1.250rem;}
     .subPage > [class $= "Page"] h4 + p + small{margin-top: 1.250rem;}
     .subPage > [class $= "Page"] h4 ~ .contentsBox ~ p{margin-top: 2.500rem;}
-    /* .subPage > [class $= "Page"] h4 ~ .contentsBox ~ p br{display: none;} */
 
     /* 서브페이지 - 컨텐츠 사이 간격 */
     .subPage > [class $= "Page"] > section:not(:last-child){margin-bottom: 7.500rem;}
