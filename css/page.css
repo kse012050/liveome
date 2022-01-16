@@ -43,12 +43,14 @@
     /* 회사 company */
     .overviewPage{overflow: hidden;}
     /* company - 회사개요 - 회사개요 */
-    .companyPage .overviewArea > p{font-size: 18px; font-weight: 500; line-height: 2; color: white; text-align: center; background: rgb(108,177,213); background: linear-gradient(90deg, rgba(108,177,213,1) 0%, rgba(154,125,208,1) 100%); position: relative; margin-bottom: 20px;}
-    .companyPage .overviewArea > p::after{content: ''; position: absolute; right: 0; top: 0; width: 0; height: 0; border-width: 1em 0em 1em 1em; border-style: solid; border-color: white transparent; }
-    .companyPage .overviewArea > div{display: flex; justify-content: space-between; margin-bottom: 27px;}
-    .companyPage .overviewArea > div p{font-size: 16px; font-weight: 500; color: #416e9e; height: 62px; display: flex; justify-content: center; align-items: center; background-color: #ecf2f8; border-radius: 100em; text-align: center;}
-    .companyPage .overviewArea > div p:nth-child(1){width: 60.5%;}
-    .companyPage .overviewArea > div p:nth-child(2){width: 38%;}
+    .companyPage .overviewArea > div{}
+    .companyPage .overviewArea > div > div.textArea{font-size: 18px; background: rgb(108,177,213); background: linear-gradient(90deg, rgba(108,177,213,1) 0%, rgba(154,125,208,1) 100%); position: relative; margin-bottom: 20px;}
+    .companyPage .overviewArea > div > div.textArea::after{content: ''; position: absolute; right: 0; top: 0; width: 0; height: 0; border-width: 1em 0em 1em 1em; border-style: solid; border-color: white transparent; }
+    .companyPage .overviewArea > div > div.textArea p{font-weight: 500; line-height: 2; color: white; text-align: center; }
+    .companyPage .overviewArea > div > div:not([class]){display: flex; justify-content: space-between; margin-bottom: 27px;}
+    .companyPage .overviewArea > div > div:not([class]) p{font-size: 16px; font-weight: 500; color: #416e9e; height: 62px; display: flex; justify-content: center; align-items: center; background-color: #ecf2f8; border-radius: 100em; text-align: center;}
+    .companyPage .overviewArea > div > div:not([class]) p:nth-child(1){width: 60.5%;}
+    .companyPage .overviewArea > div > div:not([class]) p:nth-child(2){width: 38%;}
     .companyPage .overviewArea ol::before{content: ''; display: block; height: 4px; background: rgb(117,25,134); background: linear-gradient(90deg, rgba(117,25,134,1) 0%, rgba(31,59,138,1) 100%);}
     .companyPage .overviewArea ol::after{content: ''; display: block; clear: both;}
     .companyPage .overviewArea ol li{float: left; width: 24%; display: flex; flex-direction: column;}
