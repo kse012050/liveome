@@ -44,26 +44,6 @@
     .overviewPage{overflow: hidden;}
     /* company - 회사개요 - 회사개요 */
     .companyPage .overviewArea .imgBox{background-image: url('../images/company-overview-img01.png'); height: 357px;}
-    /* .companyPage .overviewArea > div{}
-    .companyPage .overviewArea > div > div.textArea{font-size: 18px; background: rgb(108,177,213); background: linear-gradient(90deg, rgba(108,177,213,1) 0%, rgba(154,125,208,1) 100%); position: relative; margin-bottom: 20px;}
-    .companyPage .overviewArea > div > div.textArea::after{content: ''; position: absolute; right: 0; top: 0; width: 0; height: 0; border-width: 1em 0em 1em 1em; border-style: solid; border-color: white transparent; }
-    .companyPage .overviewArea > div > div.textArea p{font-weight: 500; line-height: 2; color: white; text-align: center; }
-    .companyPage .overviewArea > div > div:not([class]){display: flex; justify-content: space-between; margin-bottom: 27px;}
-    .companyPage .overviewArea > div > div:not([class]) p{font-size: 16px; font-weight: 500; color: #416e9e; height: 62px; display: flex; justify-content: center; align-items: center; background-color: #ecf2f8; border-radius: 100em; text-align: center;}
-    .companyPage .overviewArea > div > div:not([class]) p:nth-child(1){width: 60.5%;}
-    .companyPage .overviewArea > div > div:not([class]) p:nth-child(2){width: 38%;}
-    .companyPage .overviewArea ol::before{content: ''; display: block; height: 4px; background: rgb(117,25,134); background: linear-gradient(90deg, rgba(117,25,134,1) 0%, rgba(31,59,138,1) 100%);}
-    .companyPage .overviewArea ol::after{content: ''; display: block; clear: both;}
-    .companyPage .overviewArea ol li{float: left; width: 24%; display: flex; flex-direction: column;}
-    .companyPage .overviewArea ol li:not(:last-child){margin-right: 1.333%;}
-    .companyPage .overviewArea ol li::after{content: ''; order: -1; display: block; width: 12px; height: 12px; border: 2px solid #751986; border-radius: 100%; background-color: white; transform: translateY(calc(-50% - 2px)); margin-bottom: 4px;}
-    .companyPage .overviewArea ol li::before{content: attr(data-year); font-size: 22px; font-weight: 700; color: #751986; line-height: 31px; margin-bottom: 20px;}
-    .companyPage .overviewArea ol li[data-year]::before{background-repeat: no-repeat; background-position: 65px center;}
-    .companyPage .overviewArea ol li[data-year="2015"]::before{background-image: url('../images/company-overview-2015.png');}
-    .companyPage .overviewArea ol li[data-year="2021"]::before{background-image: url('../images/company-overview-2021.png');}
-    .companyPage .overviewArea ol li div{font-size: 18px; line-height: 1.333; text-align: center; height: 135px; display: flex; justify-content: center; padding: 0 60px; align-items: center; border: 1px solid #751986; border-radius: 0 25px 25px;}
-    .companyPage .overviewArea ol li:not(:last-child) div{color: #751986;}
-    .companyPage .overviewArea ol li:last-child div{color: white; background-color: #751986;} */
 
     /* company - 회사개요 - 미션 및 비전 */
     .companyPage .missionArea .imgBox{background-image: url('../images/company-overview-mission.png'); height: 940px;}

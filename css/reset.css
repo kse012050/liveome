@@ -20,7 +20,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	/* font: inherit; */
 	font-family: 'Roboto','Noto Sans KR';
 	vertical-align: baseline;
 }
@@ -56,8 +55,6 @@ html {
    -ms-text-size-adjust: none;  /*Ie*/
    -o-text-size-adjust: none; /*old versions of Opera*/
 }
-/* Iphone input select box reset */
-/* input , select{-webkit-appearance: none; -webkit-border-radius:0;} */
 
 /* input search 'X' remove */
 input[type="submit"] , input[type="reset"]{cursor: pointer;}
