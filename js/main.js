@@ -22,17 +22,14 @@ function fullPageEvent(){
     let touchY = 0;
 
     fullSelector.on('touchstart',function(e){
-        console.log(e.changedTouches[0].clientY);
         touchStartX = e.changedTouches[0].clientX;
         touchStartY = e.changedTouches[0].clientY;
     });
     
     fullSelector.on('mousewheel touchend',function(e){
-        // console.log(e.type);
         let wheelDelta = 0;
         if(e.type == 'mousewheel'){
             wheelDelta = e.originalEvent.wheelDelta;
-            // console.log(wheelDelta);
         }else if(e.type == 'touchend'){
             touchEndX = e.changedTouches[0].clientX;
             touchEndY = e.changedTouches[0].clientY;
