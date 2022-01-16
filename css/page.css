@@ -65,7 +65,7 @@
     .companyPage .overviewArea ol li:last-child div{color: white; background-color: #751986;}
 
     /* company - 회사개요 - 미션 및 비전 */
-    .companyPage .missionArea img{width: 100%;}
+    .companyPage .missionArea .imgBox{background-image: url('../images/company-overview-mission.png'); height: 940px;}
 
     /* company - 회사개요 - CIArea */
     .companyPage .CIArea div{height: 390px; display: flex; justify-content: center; align-items: center; position: relative; margin-bottom: 40px;}

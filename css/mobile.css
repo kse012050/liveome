@@ -11,6 +11,9 @@
     /* 텍스트 접근성 - 안보이게 처리 */
     .textHidden{height: 0.001px; overflow: hidden;}
 
+    /* 이미지 박스 */
+    .imgBox{text-indent: -9999px; background-repeat: no-repeat; background-position: center; background-size: cover;}
+
     /* 버튼 */
     .btnCase01{display: block; margin: 0 auto; width: 175px; line-height: 60px; font-size: 22px; font-weight: 500; color: white; text-align: center; background-color: black;}
 
@@ -56,7 +59,7 @@
     .subPage > [class $= "Page"] h4 + p + small{margin-top: 20px;}
     .subPage > [class $= "Page"] h4 ~ .contentsBox ~ p{margin-top: 45px;}
     /* 서브페이지 - 컨텐츠 사이 간격 */
-    .subPage > [class $= "Page"] > section:not(:last-child){margin-bottom: 140px;}
+    .subPage > [class $= "Page"] > section:not(:last-child){margin-bottom: 120px;}
 
     /* 서브페이지 - 디테일 페이지 */
     .detailBox strong{display: block; font-size: 30px; font-weight: 500; margin-bottom: 40px;}
@@ -209,15 +212,15 @@
     .companyPage .overviewArea ol li:last-child div{color: white; background-color: #751986;}
 
     /* company - 회사개요 - 미션 및 비전 */
-    .companyPage .missionArea img{width: 100%;}
+    .companyPage .missionArea .imgBox{background-image: url('../images/M-company-overview-mission.png'); height: 1268px;}
 
     /* company - 회사개요 - CIArea */
-    .companyPage .CIArea div{height: 390px; display: flex; justify-content: center; align-items: center; position: relative; margin-bottom: 40px;}
+    .companyPage .CIArea div{height: 400px; display: flex; justify-content: center; align-items: center; position: relative; margin-bottom: 50px;}
     .companyPage .CIArea div::before{content: ''; position: absolute; left: calc(-1 * ((100vw - 100%) / 2)); top: 0; width: 100vw; height: 100%; background-color: #f7f7f7; z-index: -1;}
-    .companyPage .CIArea div img{width: 38%;}
-    .companyPage .CIArea dl{display: flex; font-size: 24px; font-weight: 500; margin-bottom: 20px;}
+    .companyPage .CIArea div img{width: 62%;}
+    .companyPage .CIArea dl{display: flex; font-size: 26px; font-weight: 500; margin-bottom: 20px;}
     .companyPage .CIArea dl dt::after{content: ':'; padding: 0 4px; vertical-align: bottom;}
-    .companyPage .CIArea p{font-size: 22px;}
+    .companyPage .CIArea p{font-size: 24px; line-height: 1.333;}
 
     /* company - 리더쉽 팀 */
     .companyPage .personArea > li{display: flex; justify-content: space-between; align-items: center;}
