@@ -114,6 +114,9 @@
     /* 기술 technology - E-플렛폼 */
     .subPage.technologyPage .E-Area .imgBox{background-image: url('../images/technology-e-img01.png'); height: 1040px;}
 
+    /* 기술 technology - N-플렛폼 */
+    .subPage.technologyPage .N-Area .imgBox{background-image: url('../images/technology-n-img01.png'); height: 632px;}
+
 
     /* 관로 pipeline */
     .subPage.pipelinePage > section{text-align: center;}
