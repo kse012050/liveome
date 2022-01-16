@@ -262,6 +262,9 @@
     /* 기술 technology - 핵심기술 */
     .subPage.technologyPage .coreArea .imgBox{background-image: url('../images/M-technology-core-img01.png'); height: 1822px;}
 
+    /* 기술 technology - E-플렛폼 */
+    .subPage.technologyPage .E-Area .imgBox{background-image: url('../images/M-technology-e-img01.png'); height: 2926px;}
+
 
     /* 관로 pipeline */
     .subPage.pipelinePage > section{text-align: center;}
