@@ -6,13 +6,14 @@
     [class *= "width"]{margin: 0 auto; width: calc(100% - 80px);}
     /* .width01{max-width: 1760px;} */
     /* 1200px - 서브 */
-    .width02{max-width: 720px;}
+    .width02{max-width: 640px;}
 
     /* 텍스트 접근성 - 안보이게 처리 */
     .textHidden{height: 0.001px; overflow: hidden;}
 
     /* 이미지 박스 */
     .imgBox{text-indent: -9999px; background-repeat: no-repeat; background-position: center; background-size: cover;}
+    .imgBox *{display: block; text-indent: -9999px;}
 
     /* 버튼 */
     .btnCase01{display: block; margin: 0 auto; width: 175px; line-height: 60px; font-size: 22px; font-weight: 500; color: white; text-align: center; background-color: black;}
@@ -21,7 +22,7 @@
     /* 서브페이지 - 타이틀 */
     .subPage > [class $= "Page"]{padding: 95px 0 140px;}
     .subPage > [class $= "Area"]{padding: calc(110px + 90px) 0 140px;}
-    .subPage > [class $= "Page"] .subTitle{font-family: 'Bebas Neue'; font-size: 86px; line-height: 300px; color: white; text-align: center; letter-spacing: 40px; background-repeat: no-repeat; background-position: center; background-size: cover;}
+    .subPage > [class $= "Page"] .subTitle{font-family: 'Bebas Neue'; font-size: 70px; line-height: 300px; color: white; text-align: center; letter-spacing: 30px; background-repeat: no-repeat; background-position: center; background-size: cover;}
     /* 서브타이틀 - company */
     .subPage.companyPage .subTitle{background-image: url('../images/company-BG.png');}
     /* 서브타이틀 - technology */
@@ -37,27 +38,30 @@
     .subPage .subMenu{display: flex; margin-bottom: 80px;}
     .subPage .subMenu li{flex: 1; }
     .subPage .subMenu :is(li.active , li:hover) a{border-color: #722282;}
-    .subPage .subMenu li a{display: block; font-size: 24px; font-weight: 700;  color: rgba(0, 0, 0, 0.6); height: 90px; display: flex; justify-content: center; align-items: center; border-bottom: 4px solid rgba(0, 0, 0, 0.1); box-sizing: border-box;}
+    .subPage .subMenu li a{display: block; font-size: 24px; font-weight: 700;  color: rgba(0, 0, 0, 0.6); height: 90px; display: flex; justify-content: center; align-items: center; white-space: nowrap; border-bottom: 4px solid rgba(0, 0, 0, 0.1); box-sizing: border-box;}
     .subPage .subMenu :is(li.active , li:hover) a{color: #722282;}
 
     /* 서브페이지 - 서브 타이틀 */
     .subPage > [class $= "Page"] h3:not([class]){font-size: 34px; font-weight: 500; text-align: center; margin-bottom: 50px;}
     /* 서브페이지 - 서브 타이틀 (색상) */
     .subPage > [class $= "Page"] h4{text-align: center;}
-    .subPage > [class $= "Page"] h4 mark{font-size: 40px; font-weight: 700; line-height: 1.125;}
+    .subPage > [class $= "Page"] h4 mark{font-size: 40px; font-weight: 700; line-height: 1.25;}
     /* 서브페이지 - 서브 텍스트 (색상) */
-    .subPage > [class $= "Page"] h4 ~ p{font-size: 22px; line-height: 1.454; color: #000a29;}
-    .subPage > [class $= "Page"] h4 ~ small{display: block; font-size: 16px; color: rgba(0, 10, 41, 0.7);}
-    .subPage > [class $= "Page"] h4 ~ .contentsBox{margin-top: 70px;}
-    .subPage > [class $= "Page"] h4 ~ span{display: block; font-size: 20px; color: rgba(0, 0, 0, 0.6); margin-top: 20px;}
+    .subPage > [class $= "Page"] h4 ~ p{font-size: 26px; line-height: 1.3; color: #000a29;}
+    .subPage > [class $= "Page"] h4 ~ p br{display: none;}
+    .subPage > [class $= "Page"] h4 ~ small{display: block; font-size: 20px; color: rgba(0, 10, 41, 0.7);}
+    .subPage > [class $= "Page"] h4 ~ .contentsBox{margin-top: 40px;}
+    .subPage > [class $= "Page"] h4 ~ span{display: block; font-size: 24px; color: rgba(0, 0, 0, 0.6); margin-top: 20px;}
     .subPage > [class $= "Page"] h4[data-bigText]{position: relative;}
     .subPage > [class $= "Page"] h4[data-bigText]::before{content: attr(data-bigText); font-size: 220px; font-weight: 700; color: rgba(114, 34, 130, 0.2); letter-spacing: 10px;}
-    .subPage > [class $= "Page"] h4[data-bigText] mark{position: absolute; left: 50%; top: 50%; transform: translate(-50% , -50%);}
+    .subPage > [class $= "Page"] h4[data-bigText] mark{position: absolute; left: 50%; top: 50%; transform: translate(-50% , -50%); white-space: nowrap;}
     /* 서브페이지 - 서브 텍스트 (색상) 간격 */
     .subPage > [class $= "Page"] h4 + p{margin-top: 20px;}
     .subPage > [class $= "Page"] h4 + small{margin-top: 20px;}
     .subPage > [class $= "Page"] h4 + p + small{margin-top: 20px;}
-    .subPage > [class $= "Page"] h4 ~ .contentsBox ~ p{margin-top: 45px;}
+    .subPage > [class $= "Page"] h4 ~ .contentsBox ~ p{margin-top: 40px;}
+    /* .subPage > [class $= "Page"] h4 ~ .contentsBox ~ p br{display: none;} */
+
     /* 서브페이지 - 컨텐츠 사이 간격 */
     .subPage > [class $= "Page"] > section:not(:last-child){margin-bottom: 120px;}
 
@@ -250,6 +254,13 @@
     /* 기술 technology */
     .subPage.technologyPage > section{text-align: center;}
 
+    /* 기술 technology - 마이크로바이옴 */
+    .subPage.technologyPage .microArea .imgBox{background-image: url('../images/M-technology-microbe-img01.png'); height: 552px;}
+    /* 기술 technology - 마이크로바이옴 치료제*/
+    .subPage.technologyPage .remedyArea .imgBox{background-image: url('../images/M-technology-microbe-img02.png'); height: 1117px;}
+
+    /* 기술 technology - 핵심기술 */
+    .subPage.technologyPage .coreArea .imgBox{background-image: url('../images/M-technology-core-img01.png'); height: 1822px;}
 
 
     /* 관로 pipeline */

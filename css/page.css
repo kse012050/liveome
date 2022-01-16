@@ -103,7 +103,13 @@
     /* 기술 technology */
     .subPage.technologyPage > section{text-align: center;}
 
+    /* 기술 technology - 마이크로바이옴 */
+    .subPage.technologyPage .microArea .imgBox{background-image: url('../images/technology-microbe-img01.png'); height: 244px;}
+    /* 기술 technology - 마이크로바이옴 치료제 */
+    .subPage.technologyPage .remedyArea .imgBox{background-image: url('../images/technology-microbe-img02.png'); height: 613px;}
 
+    /* 기술 technology - 핵심기술 */
+    .subPage.technologyPage .coreArea .imgBox{background-image: url('../images/technology-core-img01.png'); height: 1447px;}
 
     /* 관로 pipeline */
     .subPage.pipelinePage > section{text-align: center;}
