@@ -271,6 +271,9 @@
 
     /* 관로 pipeline */
     .subPage.pipelinePage > section{text-align: center;}
+    
+    /* 관로 개요 */
+    .subPage.pipelinePage .overviewPage .imgBox{background-image: url('../images/M-pipeline-overview-img01.png'); height: 843px;}
 
     /* pipeline - 암 */
     .subPage .cancerPage dl{font-size: 22px; line-height: 50px; width: 100%; max-width: 760px; margin: 0 auto; display: flex; border: 3px solid #751986; border-radius: 100px; margin-bottom: 50px;}
@@ -278,13 +281,14 @@
     .subPage .cancerPage dl dd{flex: 1;}
 
     /* pipeline - 염증성 장 질환 (IBD) */
-    .subPage .IBDPage .CDUCArea{display: flex; justify-content: space-between; text-align: left;}
-    .subPage .IBDPage .CDUCArea li{width: 48.33%; min-height: 700px; padding: 80px 70px; box-sizing: border-box; background-color: #fafafa; background-repeat: no-repeat; background-position: right 60px bottom 60px;}
+    .subPage .IBDPage .CDUCArea{text-align: left;}
+    .subPage .IBDPage .CDUCArea li{min-height: 720px; padding: 85px; box-sizing: border-box; background-color: #fafafa; background-repeat: no-repeat; background-position: right 60px bottom 30px; background-size: 255px;}
+    .subPage .IBDPage .CDUCArea li:not(:last-child){margin-bottom: 30px;}
     .subPage .IBDPage .CDUCArea li:nth-child(1){background-image: url('../images/pipeline-IBD-CD.png');}
     .subPage .IBDPage .CDUCArea li:nth-child(2){background-image: url('../images/pipeline-IBD-UC.png');}
-    .subPage .IBDPage .CDUCArea li strong{display: block; font-size: 60px; margin-bottom: 30px;}
-    .subPage .IBDPage .CDUCArea li b{display: block; font-size: 32px; font-weight: 500; line-height: 1.4; margin-bottom: 20px;}
-    .subPage .IBDPage .CDUCArea li p{font-size: 20px; line-height: 1.5;}
+    .subPage .IBDPage .CDUCArea li strong{display: block; font-size: 70px; margin-bottom: 40px;}
+    .subPage .IBDPage .CDUCArea li b{display: block; font-size: 38px; font-weight: 500; line-height: 1.157; margin-bottom: 20px;}
+    .subPage .IBDPage .CDUCArea li p{font-size: 24px; line-height: 1.333;}
     .subPage .IBDPage dl{width: 100%; max-width: 1000px; margin: 0 auto; padding: 40px 0 30px; border: 3px solid #751986; border-radius: 1000px; font-size: 20px;  position: relative; margin-top: 50px;}
     .subPage .IBDPage dl dt{position: absolute; left: 5%; top: 0; padding: 0 40px; font-weight: 500; color: white; line-height: 46px; background-color: #751986; border-radius: 100em; transform: translateY(-50%);}
     .subPage .IBDPage dl dd{color: #751986; line-height: 1.6;}
