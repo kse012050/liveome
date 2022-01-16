@@ -85,9 +85,10 @@
     /* 게시판 */
     /* 게시판 목록 */
     .boardBox .boardArea{display: flex; flex-wrap: wrap; justify-content: space-between;}
-    .boardBox .boardArea li{width: 31.66%; background-color: #f7f7f7;}
-    .boardBox .boardArea li:not(:nth-child(-n + 3)){margin-top: 2.51%;}
-    .boardBox .boardArea li a{display: flex; flex-direction: column; width: 100%; min-height: 345px; padding: 50px 40px; box-sizing: border-box;}
+    .boardBox .boardArea li{width: calc((100% - 10px) / 2); background-color: #f7f7f7;}
+    .boardBox .boardArea li:nth-child(2n + 1){margin-right: 10px;}
+    .boardBox .boardArea li:not(:nth-child(-n + 2)){margin-top: 10px;}
+    .boardBox .boardArea li a{display: flex; flex-direction: column; width: 100%; min-height: 330px; padding: 35px; box-sizing: border-box;}
     .boardBox .boardArea li a b{display: block; font-size: 22px; margin-bottom: 25px;}
     .boardBox .boardArea li a :is(p , dl){font-size: 20px; line-height: 1.65;}
     .boardBox .boardArea li a dl{display: flex;}
