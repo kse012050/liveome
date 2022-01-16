@@ -1,9 +1,12 @@
+@media screen and (max-width:45.000rem) {
+    html{font-size: 2.22222vw;}
+}
 @media screen and (max-width:1420px) {
     /* 머티리얼 아이콘 */
     .material-icons-outlined{font-family: 'Material Icons';}
 
     /* 컨텐츠 크기 */
-    [class *= "width"]{margin: 0 auto; width: calc(100% - 80px);}
+    [class *= "width"]{margin: 0 auto; width: calc(100% - 5.000rem);}
     /* .width01{max-width: 1760px;} */
     /* 1200px - 서브 */
     .width02{max-width: 640px;}
@@ -16,13 +19,13 @@
     .imgBox *{display: block; text-indent: -9999px;}
 
     /* 버튼 */
-    .btnCase01{display: block; margin: 0 auto; width: 265px; line-height: 85px; font-size: 30px; font-weight: 500; color: white; text-align: center; background-color: black;}
+    .btnCase01{display: block; margin: 0 auto; width: 16.563rem; line-height: 5.313rem; font-size: 1.875rem; font-weight: 500; color: white; text-align: center; background-color: black;}
 
     /* 서브페이지 */
     /* 서브페이지 - 타이틀 */
-    .subPage > [class $= "Page"]{padding: 95px 0 140px;}
-    .subPage > [class $= "Area"]{padding: calc(95px + 80px) 0 140px;}
-    .subPage > [class $= "Page"] .subTitle{font-family: 'Bebas Neue'; font-size: 70px; line-height: 300px; color: white; text-align: center; letter-spacing: 30px; background-repeat: no-repeat; background-position: center; background-size: cover;}
+    .subPage > [class $= "Page"]{padding: 5.938rem 0 8.750rem;}
+    .subPage > [class $= "Area"]{padding: calc(5.938rem + 5.000rem) 0 8.750rem;}
+    .subPage > [class $= "Page"] .subTitle{font-family: 'Bebas Neue'; font-size: 4.375rem; line-height: 18.750rem; color: white; text-align: center; letter-spacing: 1.875rem; background-repeat: no-repeat; background-position: center; background-size: cover;}
     /* 서브타이틀 - company */
     .subPage.companyPage .subTitle{background-image: url('../images/company-BG.png');}
     /* 서브타이틀 - technology */
@@ -35,88 +38,88 @@
     .subPage.newsPage .subTitle{background-image: url('../images/news-BG.png');}
 
     /* 서브페이지 - 서브메뉴 */
-    .subPage .subMenu{display: flex; margin-bottom: 80px;}
+    .subPage .subMenu{display: flex; margin-bottom: 5.000rem;}
     .subPage .subMenu li{flex: 1; }
     .subPage .subMenu :is(li.active , li:hover) a{border-color: #722282;}
-    .subPage .subMenu li a{display: block; font-size: 22px; font-weight: 700;  color: rgba(0, 0, 0, 0.6); height: 90px; display: flex; justify-content: center; align-items: center; white-space: nowrap; border-bottom: 4px solid rgba(0, 0, 0, 0.1); box-sizing: border-box;}
+    .subPage .subMenu li a{display: block; font-size: 1.375rem; font-weight: 700;  color: rgba(0, 0, 0, 0.6); height: 5.625rem; display: flex; justify-content: center; align-items: center; white-space: nowrap; border-bottom: 0.250rem solid rgba(0, 0, 0, 0.1); box-sizing: border-box;}
     .subPage .subMenu :is(li.active , li:hover) a{color: #722282;}
 
     /* 서브페이지 - 서브 타이틀 */
-    .subPage > [class $= "Page"] h3:not([class]){font-size: 34px; font-weight: 500; text-align: center; margin-bottom: 50px;}
+    .subPage > [class $= "Page"] h3:not([class]){font-size: 2.125rem; font-weight: 500; text-align: center; margin-bottom: 3.125rem;}
     /* 서브페이지 - 서브 타이틀 (색상) */
     .subPage > [class $= "Page"] h4{text-align: center;}
-    .subPage > [class $= "Page"] h4 mark{font-size: 40px; font-weight: 700; line-height: 1.25;}
+    .subPage > [class $= "Page"] h4 mark{font-size: 2.500rem; font-weight: 700; line-height: 1.25;}
     /* 서브페이지 - 서브 텍스트 (색상) */
-    .subPage > [class $= "Page"] h4 ~ p{font-size: 26px; line-height: 1.3; color: #000a29;}
+    .subPage > [class $= "Page"] h4 ~ p{font-size: 1.625rem; line-height: 1.3; color: #000a29;}
     .subPage > [class $= "Page"] h4 ~ p br{display: none;}
-    .subPage > [class $= "Page"] h4 ~ small{display: block; font-size: 20px; color: rgba(0, 10, 41, 0.7);}
-    .subPage > [class $= "Page"] h4 ~ .contentsBox{margin-top: 40px;}
-    .subPage > [class $= "Page"] h4 ~ span{display: block; font-size: 24px; color: rgba(0, 0, 0, 0.6); margin-top: 20px;}
+    .subPage > [class $= "Page"] h4 ~ small{display: block; font-size: 1.250rem; color: rgba(0, 10, 41, 0.7);}
+    .subPage > [class $= "Page"] h4 ~ .contentsBox{margin-top: 2.500rem;}
+    .subPage > [class $= "Page"] h4 ~ span{display: block; font-size: 1.500rem; color: rgba(0, 0, 0, 0.6); margin-top: 1.250rem;}
     .subPage > [class $= "Page"] h4[data-bigText]{position: relative;}
-    .subPage > [class $= "Page"] h4[data-bigText]::before{content: attr(data-bigText); font-size: 220px; font-weight: 700; color: rgba(114, 34, 130, 0.2); letter-spacing: 10px;}
+    .subPage > [class $= "Page"] h4[data-bigText]::before{content: attr(data-bigText); font-size: 13.750rem; font-weight: 700; color: rgba(114, 34, 130, 0.2); letter-spacing: 0.625rem;}
     .subPage > [class $= "Page"] h4[data-bigText] mark{position: absolute; left: 50%; top: 50%; transform: translate(-50% , -50%); white-space: nowrap;}
     /* 서브페이지 - 서브 텍스트 (색상) 간격 */
-    .subPage > [class $= "Page"] h4 + p{margin-top: 20px;}
-    .subPage > [class $= "Page"] h4 + small{margin-top: 20px;}
-    .subPage > [class $= "Page"] h4 + p + small{margin-top: 20px;}
-    .subPage > [class $= "Page"] h4 ~ .contentsBox ~ p{margin-top: 40px;}
+    .subPage > [class $= "Page"] h4 + p{margin-top: 1.250rem;}
+    .subPage > [class $= "Page"] h4 + small{margin-top: 1.250rem;}
+    .subPage > [class $= "Page"] h4 + p + small{margin-top: 1.250rem;}
+    .subPage > [class $= "Page"] h4 ~ .contentsBox ~ p{margin-top: 2.500rem;}
     /* .subPage > [class $= "Page"] h4 ~ .contentsBox ~ p br{display: none;} */
 
     /* 서브페이지 - 컨텐츠 사이 간격 */
-    .subPage > [class $= "Page"] > section:not(:last-child){margin-bottom: 120px;}
+    .subPage > [class $= "Page"] > section:not(:last-child){margin-bottom: 7.500rem;}
 
     /* 서브페이지 - 디테일 페이지 */
-    .detailBox strong{display: block; font-size: 30px; font-weight: 500; margin-bottom: 40px;}
-    .detailBox strong time{display: block; font-size: 24px; color: rgba(0, 0, 0, 0.5); margin-top: 20px;}
-    .detailBox .contentsBox img{max-width: 100%; margin-bottom: 50px;}
-    .detailBox .contentsBox *{font-size: 20px; line-height: 1.5;}
-    .detailBox .prevNext{border-width: 2px 0; border-style: solid; border-color: rgba(0, 0, 0, 0.2); margin-top: 50px;}
-    .detailBox .prevNext a{display: flex; align-items: center; height: 70px; padding: 0 30px; font-size: 20px; color: rgba(0, 0, 0, 0.5);}
-    .detailBox .prevNext a::before{color: black; margin-right: 80px;}
+    .detailBox strong{display: block; font-size: 1.875rem; font-weight: 500; margin-bottom: 2.500rem;}
+    .detailBox strong time{display: block; font-size: 1.500rem; color: rgba(0, 0, 0, 0.5); margin-top: 1.250rem;}
+    .detailBox .contentsBox img{max-width: 100%; margin-bottom: 3.125rem;}
+    .detailBox .contentsBox *{font-size: 1.250rem; line-height: 1.5;}
+    .detailBox .prevNext{border-width: 0.125rem 0; border-style: solid; border-color: rgba(0, 0, 0, 0.2); margin-top: 3.125rem;}
+    .detailBox .prevNext a{display: flex; align-items: center; height: 4.375rem; padding: 0 1.875rem; font-size: 1.250rem; color: rgba(0, 0, 0, 0.5);}
+    .detailBox .prevNext a::before{color: black; margin-right: 5.000rem;}
     .detailBox .prevNext a:nth-child(1):before{content: '이전글';}
     .detailBox .prevNext a:nth-child(2):before{content: '다음글';}
-    .detailBox .prevNext a::after{content: ''; order: -1; width: 17px; height: 10px; background-repeat: no-repeat; background-position: center; background-size: cover; margin-right: 20px;}
+    .detailBox .prevNext a::after{content: ''; order: -1; width: 1.063rem; height: 0.625rem; background-repeat: no-repeat; background-position: center; background-size: cover; margin-right: 1.250rem;}
     .detailBox .prevNext a:nth-child(1):after{background-image: url('../images/detail-prev.png');}
     .detailBox .prevNext a:nth-child(2):after{background-image: url('../images/detail-next.png');}
-    .detailBox .prevNext a:not(:last-child){border-bottom: 2px solid rgba(0, 0, 0, 0.2);}
-    .detailBox > a{margin-top: 60px;}
+    .detailBox .prevNext a:not(:last-child){border-bottom: 0.125rem solid rgba(0, 0, 0, 0.2);}
+    .detailBox > a{margin-top: 3.750rem;}
 
 
     /* 게시판 */
     /* 게시판 목록 */
     .boardBox .boardArea{display: flex; flex-wrap: wrap; justify-content: space-between;}
-    .boardBox .boardArea li{width: calc((100% - 10px) / 2); background-color: #f7f7f7;}
-    .boardBox .boardArea li:nth-child(2n + 1){margin-right: 10px;}
-    .boardBox .boardArea li:not(:nth-child(-n + 2)){margin-top: 10px;}
-    .boardBox .boardArea li a{display: flex; flex-direction: column; width: 100%; min-height: 330px; padding: 45px 35px; box-sizing: border-box;}
-    .boardBox .boardArea li a b{display: block; font-size: 22px; margin-bottom: 25px;}
-    .boardBox .boardArea li a :is(p , dl){font-size: 20px; line-height: 1.65;}
+    .boardBox .boardArea li{width: calc((100% - 0.625rem) / 2); background-color: #f7f7f7;}
+    .boardBox .boardArea li:nth-child(2n + 1){margin-right: 0.625rem;}
+    .boardBox .boardArea li:not(:nth-child(-n + 2)){margin-top: 0.625rem;}
+    .boardBox .boardArea li a{display: flex; flex-direction: column; width: 100%; min-height: 20.625rem; padding: 2.813rem 2.188rem; box-sizing: border-box;}
+    .boardBox .boardArea li a b{display: block; font-size: 1.375rem; margin-bottom: 1.563rem;}
+    .boardBox .boardArea li a :is(p , dl){font-size: 1.250rem; line-height: 1.65;}
     .boardBox .boardArea li a dl{display: flex;}
-    .boardBox .boardArea li a dl dt::after{content: ':'; padding: 0 5px;}
-    .boardBox .boardArea li a time{margin-top: auto; font-size: 20px; color: rgba(0, 0, 0, 0.5);}
+    .boardBox .boardArea li a dl dt::after{content: ':'; padding: 0 0.313rem;}
+    .boardBox .boardArea li a time{margin-top: auto; font-size: 1.250rem; color: rgba(0, 0, 0, 0.5);}
     /* 게시판 페이지 */
-    .boardBox .pageBox{font-size: 18px; font-weight: 500; display: flex; justify-content: center; align-items: center; margin-top: 45px;}
+    .boardBox .pageBox{font-size: 1.125rem; font-weight: 500; display: flex; justify-content: center; align-items: center; margin-top: 2.813rem;}
     .boardBox .pageBox > a{display: flex; align-items: center;}
-    .boardBox .pageBox > a span{font-size: 20px;}
+    .boardBox .pageBox > a span{font-size: 1.250rem;}
     .boardBox .pageBox ol{display: flex; justify-content: center; align-items: center;}
-    .boardBox .pageBox ol li a{padding: 0 15px; color: #a1a1a1;}
+    .boardBox .pageBox ol li a{padding: 0 0.938rem; color: #a1a1a1;}
     .boardBox .pageBox ol :is(li.active , li:hover) a{color: black;}
 
 
 
     /* 해더 */
-    header{position: fixed; left: 0; top: 0; width: 100%; height: 95px; background-color: white; border-bottom: 1px solid rgba(0, 0, 0, 0.5); z-index: 100; transition: 0.5s background-color;}
+    header{position: fixed; left: 0; top: 0; width: 100%; height: 5.938rem; background-color: white; border-bottom: 0.063rem solid rgba(0, 0, 0, 0.5); z-index: 100; transition: 0.5s background-color;}
     header > div{height: 100%; display: flex; justify-content: space-between; align-items: center;}
-    header > div h1{width: 171px; height: 43px;}
+    header > div h1{width: 10.688rem; height: 2.688rem;}
     header > div h1 a{display: block; height: 100%; text-indent: -9999px; background-image: url('../images/logo.png'); background-repeat: no-repeat; background-position: center; background-size: cover; transition: 0.5s background-image;}
-    header > div div{width: 45px;}
-    header > div div span{display: block; height: 3px; background-color: black;}
-    header > div div span:not(:last-child){margin-bottom: 12px;}
+    header > div div{width: 2.813rem;}
+    header > div div span{display: block; height: 0.188rem; background-color: black;}
+    header > div div span:not(:last-child){margin-bottom: 0.750rem;}
     header > div nav{display: none; position: absolute; left: 50%; top: 0; height: 100%; transform: translateX(-50%);}
     header > div nav ul{height: 100%; display: flex;}
     header > div nav ul li{height: 100%;}
-    header > div nav ul li a{height: 100%; display: flex; align-items: center; padding: 0 50px; font-size: 22px; font-weight: 500;}
-    header > div > a{display: none; width: 44px; line-height: 44px; background-color: black; border-radius: 100%; font-size: 15px; font-weight: 500; color: white; text-align: center;}
+    header > div nav ul li a{height: 100%; display: flex; align-items: center; padding: 0 3.125rem; font-size: 1.375rem; font-weight: 500;}
+    header > div > a{display: none; width: 2.750rem; line-height: 2.750rem; background-color: black; border-radius: 100%; font-size: 0.938rem; font-weight: 500; color: white; text-align: center;}
 
     /* 메인 화이트 해더 */
     header.whiteCase{background-color: transparent; border: none;}
@@ -132,18 +135,18 @@
 
 
     /* 푸터 */
-    footer{padding: 70px 0; background-color: #164194;}
+    footer{padding: 4.375rem 0; background-color: #164194;}
     footer div{display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;}
-    footer div h2{max-width: 185px;}
+    footer div h2{max-width: 11.563rem;}
     footer div ul{display: flex;}
-    footer div ul li:not(:last-child){margin-right: 35px;}
-    footer div ul li a{font-size: 20px; font-weight: 900; color: rgba(255, 255, 255, 0.6);}
+    footer div ul li:not(:last-child){margin-right: 2.188rem;}
+    footer div ul li a{font-size: 1.250rem; font-weight: 900; color: rgba(255, 255, 255, 0.6);}
     footer div h2 img{width: 100%;}
-    footer div address{display: flex; flex-wrap: wrap; max-width: 100%; font-style: normal; font-size: 22px; font-weight: 300; color: rgba(255, 255, 255, 0.7); line-height: 1.636; margin-bottom: 30px; margin-top: 50px;}
-    footer div address b{width: 100%; margin-bottom: 10px;}
-    footer div address dl{display: flex; margin-right: 20px;}
-    footer div address dl dt::after{content:':'; padding: 0 5px;}
-    footer div p{max-width: 700px; width: 100%; font-size: 17px; color: rgba(255, 255, 255, 0.3);}
+    footer div address{display: flex; flex-wrap: wrap; max-width: 100%; font-style: normal; font-size: 1.375rem; font-weight: 300; color: rgba(255, 255, 255, 0.7); line-height: 1.636; margin-bottom: 1.875rem; margin-top: 3.125rem;}
+    footer div address b{width: 100%; margin-bottom: 0.625rem;}
+    footer div address dl{display: flex; margin-right: 1.250rem;}
+    footer div address dl dt::after{content:':'; padding: 0 0.313rem;}
+    footer div p{max-width: 700px; width: 100%; font-size: 1.063rem; color: rgba(255, 255, 255, 0.3);}
 
 
 
@@ -152,19 +155,19 @@
     .mainArea .BGArea{ color: white; background: url('../images/main_BG.png') no-repeat center / cover;}
     .mainArea .BGArea > div{height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; position: relative;}
     .mainArea .BGArea > div :is(h2, p){max-width: 640px; width: 100%;}
-    .mainArea .BGArea > div h2{font-family: 'Bebas Neue'; font-size: 64px; font-weight: 400; line-height: 1.468; letter-spacing: 23px; margin-bottom: 50px;}
+    .mainArea .BGArea > div h2{font-family: 'Bebas Neue'; font-size: 4.000rem; font-weight: 400; line-height: 1.468; letter-spacing: 1.438rem; margin-bottom: 3.125rem;}
     .mainArea .BGArea > div h2 span{font-family: inherit; display: block; position: relative; z-index: 0;}
-    .mainArea .BGArea > div h2 span::before{content: ''; position: absolute; left: 0; bottom: 25px; width: 0; height: 35px; background-color: #e09302; z-index: -1;}
-    .mainArea .BGArea > div p{font-size: 24px; font-weight: 300;}
-    .mainArea .BGArea > div > a{display: none; font-family: 'Sora'; position: absolute; right: 0; bottom: 55px; font-size: 14px; padding-bottom: 15px;}
-    .mainArea .BGArea > div > a::before{content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 1px; background-color: white;}
-    .mainArea .BGArea > div > a::after{content: ''; position: absolute; left: 0; bottom: 0; width: 0; height: 1px; background-color: white;}
+    .mainArea .BGArea > div h2 span::before{content: ''; position: absolute; left: 0; bottom: 1.563rem; width: 0; height: 2.188rem; background-color: #e09302; z-index: -1;}
+    .mainArea .BGArea > div p{font-size: 1.500rem; font-weight: 300;}
+    .mainArea .BGArea > div > a{display: none; font-family: 'Sora'; position: absolute; right: 0; bottom: 3.438rem; font-size: 0.875rem; padding-bottom: 0.938rem;}
+    .mainArea .BGArea > div > a::before{content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 0.063rem; background-color: white;}
+    .mainArea .BGArea > div > a::after{content: ''; position: absolute; left: 0; bottom: 0; width: 0; height: 0.063rem; background-color: white;}
     .mainArea .BGArea > div > a:hover::before{opacity: 0;}
     .mainArea .BGArea > div > a:hover::after{width: 100%; transition: 1s width;}
-    .mainArea .BGArea > div > a span{vertical-align: bottom; padding-left: 10px;}
-    .mainArea .BGArea > div .scrollArea{display: none; font-family: 'Sora'; position: absolute; left: 70px; top: 50%; transform: translateY(-50%); font-size: 14px; font-weight: 300;}
-    .mainArea .BGArea > div .scrollArea span{display: block; width: 2px; height: 40px; background-color: rgba(255, 255, 255, 0.5); margin: 0 auto 20px; position: relative;}
-    .mainArea .BGArea > div .scrollArea span::after{content: ''; position: absolute; left: 50%; top: 8px; transform: translate(-50%,-50%); width: 6px; height: 6px; background-color: white; border-radius: 100%;}
+    .mainArea .BGArea > div > a span{vertical-align: bottom; padding-left: 0.625rem;}
+    .mainArea .BGArea > div .scrollArea{display: none; font-family: 'Sora'; position: absolute; left: 4.375rem; top: 50%; transform: translateY(-50%); font-size: 0.875rem; font-weight: 300;}
+    .mainArea .BGArea > div .scrollArea span{display: block; width: 0.125rem; height: 2.500rem; background-color: rgba(255, 255, 255, 0.5); margin: 0 auto 1.250rem; position: relative;}
+    .mainArea .BGArea > div .scrollArea span::after{content: ''; position: absolute; left: 50%; top: 0.500rem; transform: translate(-50%,-50%); width: 0.375rem; height: 0.375rem; background-color: white; border-radius: 100%;}
 
     header.whiteCase + .mainArea .BGArea > div h2 span::before{ animation: mainTitle 1s 1s forwards;}
     @keyframes mainTitle {
@@ -177,141 +180,122 @@
         100%{top: 80%;}
     }
 
-    .mainArea .contentsArea{padding-top: 95px; box-sizing: border-box;}
+    .mainArea .contentsArea{padding-top: 5.938rem; box-sizing: border-box;}
     .mainArea .contentsArea ul{height: 100%; /* padding-top: 2.8%; */  box-sizing: border-box; display: flex; flex-direction: column; flex-wrap: wrap; align-content: space-between; position: relative;}
     .mainArea .contentsArea ul li{ background-repeat: no-repeat; background-position: center; background-size: cover;}
-    .mainArea .contentsArea ul li:nth-child(-n + 3){width: calc((100% - 10px) / 2);}
-    .mainArea .contentsArea ul li:not(:nth-child(3)){height: 21.933%; margin-bottom: 10px;}
-    /* .mainArea .contentsArea ul li:nth-child(3){ position: absolute; right: 0; top: 0; height: calc((21.933% * 2) + 10px);} */
+    .mainArea .contentsArea ul li:nth-child(-n + 3){width: calc((100% - 0.625rem) / 2);}
+    .mainArea .contentsArea ul li:not(:nth-child(3)){height: 21.933%; margin-bottom: 0.625rem;}
+    /* .mainArea .contentsArea ul li:nth-child(3){ position: absolute; right: 0; top: 0; height: calc((21.933% * 2) + 0.625rem);} */
     .mainArea .contentsArea ul li:nth-child(n + 4){width: 100%;}
     .mainArea .contentsArea ul li:nth-child(1){background-image: url('../images/main_BG01.png'); }
     .mainArea .contentsArea ul li:nth-child(2){background-image: url('../images/main_BG02.png'); }
-    .mainArea .contentsArea ul li:nth-child(3){background-image: url('../images/main_BG03.png'); position: absolute; right: 0; top:0; height: calc((21.933% * 2) + 10px);}
+    .mainArea .contentsArea ul li:nth-child(3){background-image: url('../images/main_BG03.png'); position: absolute; right: 0; top:0; height: calc((21.933% * 2) + 0.625rem);}
     .mainArea .contentsArea ul li:nth-child(4){background-image: url('../images/main_BG04.png'); }
     .mainArea .contentsArea ul li:nth-child(5){background-image: url('../images/main_BG05.png'); }
-    .mainArea .contentsArea ul li a{font-family: 'Sora'; display: block; height: 100%; padding: 35px 30px; font-size: 30px; font-weight: 600; color: white; text-transform: uppercase;}
+    .mainArea .contentsArea ul li a{font-family: 'Sora'; display: block; height: 100%; padding: 2.188rem 1.875rem; font-size: 1.875rem; font-weight: 600; color: white; text-transform: uppercase;}
 
 
     /* 회사 company */
     .overviewPage{overflow: hidden;}
     /* company - 회사개요 - 회사개요 */
-    .companyPage .overviewArea > div{position: relative;}
-    .companyPage .overviewArea > div > div.textArea{font-size: 18px; background: rgb(108,177,213); background: linear-gradient(180deg, rgba(108,177,213,1) 0%, rgba(154,125,208,1) 100%); position: absolute; left: 0; top: 0; width: 2em; height: 100%;}
-    .companyPage .overviewArea > div > div.textArea::after{content: ''; position: absolute; right: 0; top: 0; width: 0; height: 0; border-width: 1em 0em 1em 1em; border-style: solid; border-color: white transparent; }
-    .companyPage .overviewArea > div > div.textArea p{font-weight: 500; line-height: 2; color: white; text-align: center; white-space: nowrap;}
-    .companyPage .overviewArea > div > div:not([class]){display: flex; justify-content: space-between; margin-bottom: 27px;}
-    .companyPage .overviewArea > div > div:not([class]) p{font-size: 16px; font-weight: 500; color: #416e9e; height: 62px; display: flex; justify-content: center; align-items: center; background-color: #ecf2f8; border-radius: 100em; text-align: center;}
-    .companyPage .overviewArea > div > div:not([class]) p:nth-child(1){width: 60.5%;}
-    .companyPage .overviewArea > div > div:not([class]) p:nth-child(2){width: 38%;}
-    .companyPage .overviewArea ol::before{content: ''; display: block; height: 4px; background: rgb(117,25,134); background: linear-gradient(90deg, rgba(117,25,134,1) 0%, rgba(31,59,138,1) 100%);}
-    .companyPage .overviewArea ol::after{content: ''; display: block; clear: both;}
-    .companyPage .overviewArea ol li{float: left; width: 24%; display: flex; flex-direction: column;}
-    .companyPage .overviewArea ol li:not(:last-child){margin-right: 1.333%;}
-    .companyPage .overviewArea ol li::after{content: ''; order: -1; display: block; width: 12px; height: 12px; border: 2px solid #751986; border-radius: 100%; background-color: white; transform: translateY(calc(-50% - 2px)); margin-bottom: 4px;}
-    .companyPage .overviewArea ol li::before{content: attr(data-year); font-size: 22px; font-weight: 700; color: #751986; line-height: 31px; margin-bottom: 20px;}
-    .companyPage .overviewArea ol li[data-year]::before{background-repeat: no-repeat; background-position: 65px center;}
-    .companyPage .overviewArea ol li[data-year="2015"]::before{background-image: url('../images/company-overview-2015.png');}
-    .companyPage .overviewArea ol li[data-year="2021"]::before{background-image: url('../images/company-overview-2021.png');}
-    .companyPage .overviewArea ol li div{font-size: 18px; line-height: 1.333; text-align: center; height: 135px; display: flex; justify-content: center; padding: 0 60px; align-items: center; border: 1px solid #751986; border-radius: 0 25px 25px;}
-    .companyPage .overviewArea ol li:not(:last-child) div{color: #751986;}
-    .companyPage .overviewArea ol li:last-child div{color: white; background-color: #751986;}
+    .companyPage .overviewArea .imgBox{background-image: url('../images/M-company-overview-img01.png'); height: 70.438rem;}
 
     /* company - 회사개요 - 미션 및 비전 */
-    .companyPage .missionArea .imgBox{background-image: url('../images/M-company-overview-mission.png'); height: 1268px;}
+    .companyPage .missionArea .imgBox{background-image: url('../images/M-company-overview-mission.png'); height: 79.250rem;}
 
     /* company - 회사개요 - CIArea */
-    .companyPage .CIArea div{height: 400px; display: flex; justify-content: center; align-items: center; position: relative; margin-bottom: 50px;}
+    .companyPage .CIArea div{height: 25.000rem; display: flex; justify-content: center; align-items: center; position: relative; margin-bottom: 3.125rem;}
     .companyPage .CIArea div::before{content: ''; position: absolute; left: calc(-1 * ((100vw - 100%) / 2)); top: 0; width: 100vw; height: 100%; background-color: #f7f7f7; z-index: -1;}
     .companyPage .CIArea div img{width: 62%;}
-    .companyPage .CIArea dl{display: flex; font-size: 26px; font-weight: 500; margin-bottom: 20px;}
-    .companyPage .CIArea dl dt::after{content: ':'; padding: 0 4px; vertical-align: bottom;}
-    .companyPage .CIArea p{font-size: 24px; line-height: 1.333;}
+    .companyPage .CIArea dl{display: flex; font-size: 1.625rem; font-weight: 500; margin-bottom: 1.250rem;}
+    .companyPage .CIArea dl dt::after{content: ':'; padding: 0 0.250rem; vertical-align: bottom;}
+    .companyPage .CIArea p{font-size: 1.500rem; line-height: 1.333;}
 
     /* company - 리더쉽 팀 */
     .companyPage .personArea > li{display: flex; flex-direction: column; align-items: center;}
-    .companyPage .personArea > li:not(:last-child){margin-bottom: 120px;}
+    .companyPage .personArea > li:not(:last-child){margin-bottom: 7.500rem;}
     .companyPage .personArea > li div{display: flex; flex-direction: column; align-items: center;}
-    .companyPage .personArea > li div strong{font-size: 30px; font-weight: 700; color: rgba(0, 0, 0, 0.5); margin-bottom: 20px;}
-    .companyPage .personArea > li div strong mark{font-size: 54px;}
-    .companyPage .personArea > li div > mark{display: block; width: 195px; line-height: 50px; font-size: 22px; font-weight: 700; text-align: center; background-color: #f0e8f3; border-radius: 100em; margin-bottom: 125px;}
-    .companyPage .personArea > li ul{width: 100%; padding: 115px 50px 65px; box-sizing: border-box; background-color: #f7f7f7; border-radius: 100px; position: relative; min-height: 170px; display: flex; flex-direction: column; justify-content: center;}
-    .companyPage .personArea > li ul::before{content: ''; position: absolute; left: 50%; top: 0; width: 170px; height: 170px;  transform: translate(-50% , -50%); background-repeat: no-repeat; background-position: center; background-size: cover;}
+    .companyPage .personArea > li div strong{font-size: 1.875rem; font-weight: 700; color: rgba(0, 0, 0, 0.5); margin-bottom: 1.250rem;}
+    .companyPage .personArea > li div strong mark{font-size: 3.375rem;}
+    .companyPage .personArea > li div > mark{display: block; width: 12.188rem; line-height: 3.125rem; font-size: 1.375rem; font-weight: 700; text-align: center; background-color: #f0e8f3; border-radius: 100rem; margin-bottom: 7.813rem;}
+    .companyPage .personArea > li ul{width: 100%; padding: 7.188rem 3.125rem 4.063rem; box-sizing: border-box; background-color: #f7f7f7; border-radius: 100px; position: relative; min-height: 10.625rem; display: flex; flex-direction: column; justify-content: center;}
+    .companyPage .personArea > li ul::before{content: ''; position: absolute; left: 50%; top: 0; width: 10.625rem; height: 10.625rem;  transform: translate(-50% , -50%); background-repeat: no-repeat; background-position: center; background-size: cover;}
     .companyPage .personArea > li:nth-child(1) ul::before{background-image: url('../images/company-leadership-img01.png');}
     .companyPage .personArea > li:nth-child(2) ul::before{background-image: url('../images/company-leadership-img02.png');}
     .companyPage .personArea > li:nth-child(3) ul::before{background-image: url('../images/company-leadership-img03.png');}
-    .companyPage .personArea > li ul li{font-size: 22px; line-height: 1.4545; text-transform: uppercase; display: flex; align-items: center;}
-    .companyPage .personArea > li ul li::before{content: '·'; font-size: 1.5em; line-height: 0; padding: 5px;}
+    .companyPage .personArea > li ul li{font-size: 1.375rem; line-height: 1.4545; text-transform: uppercase; display: flex; align-items: center;}
+    .companyPage .personArea > li ul li::before{content: '·'; font-size: 1.5rem; line-height: 0; padding: 0.313rem;}
 
     /* company - contact us */
-    .companyPage .contactUsArea iframe{width: 100%; height: 345px; margin-bottom: 50px;}
-    .companyPage .contactUsArea img{margin-bottom: 35px;}
-    .companyPage .contactUsArea b{display: block; font-size: 26px; font-weight: 700; margin-bottom: 20px;}
-    .companyPage .contactUsArea dl{display: flex; font-size: 24px; line-height: 1.5;}
-    .companyPage .contactUsArea dl:last-of-type{margin-bottom: 65px;}
-    .companyPage .contactUsArea dl dt{width: 85px; font-weight: 500;}
-    .companyPage .contactUsArea a{display: block; width: 250px; line-height: 80px; margin: 0 auto; font-size: 30px; font-weight: 500; color: white; text-align: center; background-color: black;}
+    .companyPage .contactUsArea iframe{width: 100%; height: 21.563rem; margin-bottom: 3.125rem;}
+    .companyPage .contactUsArea img{margin-bottom: 2.188rem;}
+    .companyPage .contactUsArea b{display: block; font-size: 1.625rem; font-weight: 700; margin-bottom: 1.250rem;}
+    .companyPage .contactUsArea dl{display: flex; font-size: 1.500rem; line-height: 1.5;}
+    .companyPage .contactUsArea dl:last-of-type{margin-bottom: 4.063rem;}
+    .companyPage .contactUsArea dl dt{width: 5.313rem; font-weight: 500;}
+    .companyPage .contactUsArea a{display: block; width: 15.625rem; line-height: 5.000rem; margin: 0 auto; font-size: 1.875rem; font-weight: 500; color: white; text-align: center; background-color: black;}
 
 
     /* 기술 technology */
     .subPage.technologyPage > section{text-align: center;}
 
     /* 기술 technology - 마이크로바이옴 */
-    .subPage.technologyPage .microArea .imgBox{background-image: url('../images/M-technology-microbe-img01.png'); height: 552px;}
+    .subPage.technologyPage .microArea .imgBox{background-image: url('../images/M-technology-microbe-img01.png'); height: 34.500rem;}
     /* 기술 technology - 마이크로바이옴 치료제*/
-    .subPage.technologyPage .remedyArea .imgBox{background-image: url('../images/M-technology-microbe-img02.png'); height: 1117px;}
+    .subPage.technologyPage .remedyArea .imgBox{background-image: url('../images/M-technology-microbe-img02.png'); height: 69.813rem;}
 
     /* 기술 technology - 핵심기술 */
-    .subPage.technologyPage .coreArea .imgBox{background-image: url('../images/M-technology-core-img01.png'); height: 1822px;}
+    .subPage.technologyPage .coreArea .imgBox{background-image: url('../images/M-technology-core-img01.png'); height: 113.875rem;}
 
     /* 기술 technology - E-플렛폼 */
-    .subPage.technologyPage .E-Area .imgBox{background-image: url('../images/M-technology-e-img01.png'); height: 2926px;}
+    .subPage.technologyPage .E-Area .imgBox{background-image: url('../images/M-technology-e-img01.png'); height: 182.875rem;}
 
     /* 기술 technology - N-플렛폼 */
-    .subPage.technologyPage .N-Area .imgBox{background-image: url('../images/M-technology-n-img01.png'); height: 2866px;}
+    .subPage.technologyPage .N-Area .imgBox{background-image: url('../images/M-technology-n-img01.png'); height: 179.125rem;}
 
 
     /* 관로 pipeline */
     .subPage.pipelinePage > section{text-align: center;}
     
     /* 관로 개요 */
-    .subPage.pipelinePage .overviewPage .imgBox{background-image: url('../images/M-pipeline-overview-img01.png'); height: 843px;}
+    .subPage.pipelinePage .overviewPage .imgBox{background-image: url('../images/M-pipeline-overview-img01.png'); height: 52.688rem;}
 
 
     /* pipeline - 염증성 장 질환 (IBD) */
     .subPage .IBDPage .CDUCArea{text-align: left;}
-    .subPage .IBDPage .CDUCArea li{min-height: 720px; padding: 85px; box-sizing: border-box; background-color: #fafafa; background-repeat: no-repeat; background-position: right 60px bottom 30px; background-size: 255px;}
-    .subPage .IBDPage .CDUCArea li:not(:last-child){margin-bottom: 30px;}
+    .subPage .IBDPage .CDUCArea li{min-height: 45.000rem; padding: 5.313rem; box-sizing: border-box; background-color: #fafafa; background-repeat: no-repeat; background-position: right 3.750rem bottom 1.875rem; background-size: 15.938rem;}
+    .subPage .IBDPage .CDUCArea li:not(:last-child){margin-bottom: 1.875rem;}
     .subPage .IBDPage .CDUCArea li:nth-child(1){background-image: url('../images/pipeline-IBD-CD.png');}
     .subPage .IBDPage .CDUCArea li:nth-child(2){background-image: url('../images/pipeline-IBD-UC.png');}
-    .subPage .IBDPage .CDUCArea li strong{display: block; font-size: 70px; margin-bottom: 40px;}
-    .subPage .IBDPage .CDUCArea li b{display: block; font-size: 38px; font-weight: 500; line-height: 1.157; margin-bottom: 20px;}
-    .subPage .IBDPage .CDUCArea li p{font-size: 24px; line-height: 1.333;}
-    .subPage .IBDPage .scaleArea .imgBox{background-image: url('../images/M-pipeline-IBD-img01.png'); height: 696px;}
-    .subPage .IBDPage .develoArea .imgBox{background-image: url('../images/M-pipeline-IBD-img02.png'); height: 1241px;}
-    .subPage .IBDPage dl{width: 100%; max-width: 1000px; margin: 0 auto; padding: 50px 95px 45px; border: 3px solid #751986; border-radius: 1000px; box-sizing: border-box;  position: relative; margin-top: 80px;}
-    .subPage .IBDPage dl dt{position: absolute; left: 50%; top: 0; padding: 0 40px; font-size: 22px; font-weight: 500; color: white; line-height: 50px; white-space: nowrap; background-color: #751986; border-radius: 100em; transform: translate(-50% , -50%);}
-    .subPage .IBDPage dl dd{color: #751986; font-size: 24px; line-height: 1.5;}
-    .subPage .IBDPage dl dd::before{content: '·'; padding: 0 5px;}
+    .subPage .IBDPage .CDUCArea li strong{display: block; font-size: 4.375rem; margin-bottom: 2.500rem;}
+    .subPage .IBDPage .CDUCArea li b{display: block; font-size: 2.375rem; font-weight: 500; line-height: 1.157; margin-bottom: 1.250rem;}
+    .subPage .IBDPage .CDUCArea li p{font-size: 1.500rem; line-height: 1.333;}
+    .subPage .IBDPage .scaleArea .imgBox{background-image: url('../images/M-pipeline-IBD-img01.png'); height: 43.500rem;}
+    .subPage .IBDPage .develoArea .imgBox{background-image: url('../images/M-pipeline-IBD-img02.png'); height: 77.563rem;}
+    .subPage .IBDPage dl{width: 100%; max-width: 1000px; margin: 0 auto; padding: 3.125rem 5.938rem 2.813rem; border: 0.188rem solid #751986; border-radius: 1000px; box-sizing: border-box;  position: relative; margin-top: 5.000rem;}
+    .subPage .IBDPage dl dt{position: absolute; left: 50%; top: 0; padding: 0 2.500rem; font-size: 1.375rem; font-weight: 500; color: white; line-height: 3.125rem; white-space: nowrap; background-color: #751986; border-radius: 100rem; transform: translate(-50% , -50%);}
+    .subPage .IBDPage dl dd{color: #751986; font-size: 1.500rem; line-height: 1.5;}
+    .subPage .IBDPage dl dd::before{content: '·'; padding: 0 0.313rem;}
 
 
      /* pipeline - 암 */
-    .subPage .cancerPage dl{padding: 50px 30px 40px; border: 3px solid #751986; border-radius: 1000px; box-sizing: border-box;  position: relative; margin-top: 70px; margin-bottom: 40px;}
-    .subPage .cancerPage dl dt{position: absolute; left: 50%; top: 0; padding: 0 60px; font-size: 22px; font-weight: 500; color: white; line-height: 50px; white-space: nowrap; background-color: #751986; border-radius: 100em; transform: translate(-50% , -50%);}
-    .subPage .cancerPage dl dd{color: #751986; font-size: 24px; line-height: 1.5;}
+    .subPage .cancerPage dl{padding: 3.125rem 1.875rem 2.500rem; border: 0.188rem solid #751986; border-radius: 1000px; box-sizing: border-box;  position: relative; margin-top: 4.375rem; margin-bottom: 2.500rem;}
+    .subPage .cancerPage dl dt{position: absolute; left: 50%; top: 0; padding: 0 3.750rem; font-size: 1.375rem; font-weight: 500; color: white; line-height: 3.125rem; white-space: nowrap; background-color: #751986; border-radius: 100rem; transform: translate(-50% , -50%);}
+    .subPage .cancerPage dl dd{color: #751986; font-size: 1.500rem; line-height: 1.5;}
 
      /* pipeline - 암 - 면역항암제 */
-    .subPage .cancerPage .immunArea > div:nth-of-type(1) .imgBox{background-image: url('../images/M-pipeline-cancer-img01.png'); height: 1163px;}
-    .subPage .cancerPage .immunArea > div:nth-of-type(2) .imgBox{background-image: url('../images/M-pipeline-cancer-img02.png'); height: 1106px;}
+    .subPage .cancerPage .immunArea > div:nth-of-type(1) .imgBox{background-image: url('../images/M-pipeline-cancer-img01.png'); height: 72.688rem;}
+    .subPage .cancerPage .immunArea > div:nth-of-type(2) .imgBox{background-image: url('../images/M-pipeline-cancer-img02.png'); height: 69.125rem;}
     /* pipeline - 암 - 면역항암제 */
-    .subPage .cancerPage .develoArea .imgBox{background-image: url('../images/M-pipeline-cancer-img03.png'); height: 1322px;}
+    .subPage .cancerPage .develoArea .imgBox{background-image: url('../images/M-pipeline-cancer-img03.png'); height: 82.625rem;}
     /* pipeline - 암 - 면역항암제 */
-    .subPage .cancerPage .solutionArea .imgBox{background-image: url('../images/M-pipeline-cancer-img04.png'); height: 1903px;}
+    .subPage .cancerPage .solutionArea .imgBox{background-image: url('../images/M-pipeline-cancer-img04.png'); height: 118.938rem;}
 
 
     /* 직업 */
     /* 직업 - 제도 또는 근무환경 */
     .policyPage .policyArea{display: flex; flex-wrap: wrap; text-align: center;}
-    .policyPage .policyArea li{width: calc(100% / 2); height: 290px; padding: 10px; box-sizing: border-box;}
+    .policyPage .policyArea li{width: calc(100% / 2); height: 18.125rem; padding: 0.625rem; box-sizing: border-box;}
     .policyPage .policyArea li .imgBox{height: 100%; background-repeat: no-repeat; background-position: center; background-size: cover;}
     .policyPage .policyArea li:nth-child(1) .imgBox{background-image: url('../images/M-careers-policy-img01.png');}
     .policyPage .policyArea li:nth-child(2) .imgBox{background-image: url('../images/M-careers-policy-img02.png');}
@@ -321,32 +305,32 @@
     .policyPage .policyArea li:nth-child(6) .imgBox{background-image: url('../images/M-careers-policy-img06.png');}
     .policyPage .policyArea li:nth-child(7) .imgBox{background-image: url('../images/M-careers-policy-img07.png');}
     .policyPage .policyArea li:nth-child(8) .imgBox{background-image: url('../images/M-careers-policy-img08.png');}
-    .policyPage .policyArea li:nth-child(2n + 1){border-right: 1px solid #722282; position: relative;}
-    .policyPage .policyArea li:nth-child(2n + 1)::after{content: ''; position: absolute; right: 0; bottom: 0; width: 40px; height: 40px; background-color: white; transform: translate(50% , 50%); z-index: 1;}
-    .policyPage .policyArea li:not(:nth-child(-n + 2)){border-top: 1px solid #722282; position: relative;}
+    .policyPage .policyArea li:nth-child(2n + 1){border-right: 0.063rem solid #722282; position: relative;}
+    .policyPage .policyArea li:nth-child(2n + 1)::after{content: ''; position: absolute; right: 0; bottom: 0; width: 2.500rem; height: 2.500rem; background-color: white; transform: translate(50% , 50%); z-index: 1;}
+    .policyPage .policyArea li:not(:nth-child(-n + 2)){border-top: 0.063rem solid #722282; position: relative;}
 
 
     /* etc */
-    .etcPage :is(.questionArea , .privacyArea) :is(legend , h2){font-size: 42px; font-weight: 700; margin-bottom: 50px;}
+    .etcPage :is(.questionArea , .privacyArea) :is(legend , h2){font-size: 2.625rem; font-weight: 700; margin-bottom: 3.125rem;}
     /* etc -  문의 */
-    .etcPage .questionArea{max-width: calc(100% - 80px); width: 640px; margin: 0 auto; text-align: center;}
-    .etcPage .questionArea fieldset ul{text-align: left; margin-bottom: 55px;}
-    .etcPage .questionArea fieldset ul li:not(:last-child){margin-bottom: 30px;}
-    .etcPage .questionArea fieldset ul li > label{display: block; font-size: 24px; font-weight: 500; color: #333333; margin-bottom: 15px;}
-    .etcPage .questionArea fieldset ul li :is(input , textarea){border: 1px solid #cccccc; border-radius: 10px; box-sizing: border-box;}
-    .etcPage .questionArea fieldset ul li > *:nth-child(2){width: 100%; font-size: 25px; line-height: 70px; padding: 0 10px; }
-    .etcPage .questionArea fieldset ul li textarea{resize: none; min-height: 200px; margin-bottom: 15px;}
+    .etcPage .questionArea{max-width: 640px; width: calc(100% - 5.000rem); margin: 0 auto; text-align: center;}
+    .etcPage .questionArea fieldset ul{text-align: left; margin-bottom: 3.438rem;}
+    .etcPage .questionArea fieldset ul li:not(:last-child){margin-bottom: 1.875rem;}
+    .etcPage .questionArea fieldset ul li > label{display: block; font-size: 1.500rem; font-weight: 500; color: #333333; margin-bottom: 0.938rem;}
+    .etcPage .questionArea fieldset ul li :is(input , textarea){border: 0.063rem solid #cccccc; border-radius: 0.625rem; box-sizing: border-box;}
+    .etcPage .questionArea fieldset ul li > *:nth-child(2){width: 100%; font-size: 1.563rem; line-height: 4.375rem; padding: 0 0.625rem; }
+    .etcPage .questionArea fieldset ul li textarea{resize: none; min-height: 12.500rem; margin-bottom: 0.938rem;}
     .etcPage .questionArea fieldset ul li div{display: flex; align-items: center;}
-    .etcPage .questionArea fieldset ul li div input[type="checkbox"]{width: 24px; height: 24px; margin-right: 10px;}
-    .etcPage .questionArea fieldset ul li div label{font-size: 22px; font-weight: 500; color: #333333;}
+    .etcPage .questionArea fieldset ul li div input[type="checkbox"]{width: 1.500rem; height: 1.500rem; margin-right: 0.625rem;}
+    .etcPage .questionArea fieldset ul li div label{font-size: 1.375rem; font-weight: 500; color: #333333;}
     .etcPage .questionArea fieldset ul li.required > label::after{content: '*'; color: #eb3654;}
 
 
     /* etc -  개인정보처리방침 */
-    .etcPage .privacyArea h2{padding-bottom: 50px; border-bottom: 1px solid rgba(0, 0, 0, 0.2);}
-    .etcPage .privacyArea h2 small{display: block; font-size: 22px; font-weight: 400; margin-top: 20px;}
-    .etcPage .privacyArea h2 ~ *{font-size: 22px; line-height: 1.6363;}
+    .etcPage .privacyArea h2{padding-bottom: 3.125rem; border-bottom: 0.063rem solid rgba(0, 0, 0, 0.2);}
+    .etcPage .privacyArea h2 small{display: block; font-size: 1.375rem; font-weight: 400; margin-top: 1.250rem;}
+    .etcPage .privacyArea h2 ~ *{font-size: 1.375rem; line-height: 1.6363;}
     .etcPage .privacyArea h2 ~ * b{font-weight: 500;}
-    .etcPage .privacyArea p{margin-bottom: 40px;}
+    .etcPage .privacyArea p{margin-bottom: 2.500rem;}
     .etcPage .privacyArea ol{list-style: decimal; list-style-position: inside;}
 }

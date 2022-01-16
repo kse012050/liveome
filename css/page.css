@@ -43,7 +43,8 @@
     /* 회사 company */
     .overviewPage{overflow: hidden;}
     /* company - 회사개요 - 회사개요 */
-    .companyPage .overviewArea > div{}
+    .companyPage .overviewArea .imgBox{background-image: url('../images/company-overview-img01.png'); height: 357px;}
+    /* .companyPage .overviewArea > div{}
     .companyPage .overviewArea > div > div.textArea{font-size: 18px; background: rgb(108,177,213); background: linear-gradient(90deg, rgba(108,177,213,1) 0%, rgba(154,125,208,1) 100%); position: relative; margin-bottom: 20px;}
     .companyPage .overviewArea > div > div.textArea::after{content: ''; position: absolute; right: 0; top: 0; width: 0; height: 0; border-width: 1em 0em 1em 1em; border-style: solid; border-color: white transparent; }
     .companyPage .overviewArea > div > div.textArea p{font-weight: 500; line-height: 2; color: white; text-align: center; }
@@ -62,7 +63,7 @@
     .companyPage .overviewArea ol li[data-year="2021"]::before{background-image: url('../images/company-overview-2021.png');}
     .companyPage .overviewArea ol li div{font-size: 18px; line-height: 1.333; text-align: center; height: 135px; display: flex; justify-content: center; padding: 0 60px; align-items: center; border: 1px solid #751986; border-radius: 0 25px 25px;}
     .companyPage .overviewArea ol li:not(:last-child) div{color: #751986;}
-    .companyPage .overviewArea ol li:last-child div{color: white; background-color: #751986;}
+    .companyPage .overviewArea ol li:last-child div{color: white; background-color: #751986;} */
 
     /* company - 회사개요 - 미션 및 비전 */
     .companyPage .missionArea .imgBox{background-image: url('../images/company-overview-mission.png'); height: 940px;}
