@@ -275,10 +275,6 @@
     /* 관로 개요 */
     .subPage.pipelinePage .overviewPage .imgBox{background-image: url('../images/M-pipeline-overview-img01.png'); height: 843px;}
 
-    /* pipeline - 암 */
-    .subPage .cancerPage dl{font-size: 22px; line-height: 50px; width: 100%; max-width: 760px; margin: 0 auto; display: flex; border: 3px solid #751986; border-radius: 100px; margin-bottom: 50px;}
-    .subPage .cancerPage dl dt{flex-shrink: 0; width: 220px; font-weight: 500; color: white; background-color: #751986; border-radius: 100em;}
-    .subPage .cancerPage dl dd{flex: 1;}
 
     /* pipeline - 염증성 장 질환 (IBD) */
     .subPage .IBDPage .CDUCArea{text-align: left;}
@@ -295,6 +291,20 @@
     .subPage .IBDPage dl dt{position: absolute; left: 50%; top: 0; padding: 0 40px; font-size: 22px; font-weight: 500; color: white; line-height: 50px; white-space: nowrap; background-color: #751986; border-radius: 100em; transform: translate(-50% , -50%);}
     .subPage .IBDPage dl dd{color: #751986; font-size: 24px; line-height: 1.5;}
     .subPage .IBDPage dl dd::before{content: '·'; padding: 0 5px;}
+
+
+     /* pipeline - 암 */
+    .subPage .cancerPage dl{padding: 50px 30px 40px; border: 3px solid #751986; border-radius: 1000px; box-sizing: border-box;  position: relative; margin-top: 70px; margin-bottom: 40px;}
+    .subPage .cancerPage dl dt{position: absolute; left: 50%; top: 0; padding: 0 60px; font-size: 22px; font-weight: 500; color: white; line-height: 50px; white-space: nowrap; background-color: #751986; border-radius: 100em; transform: translate(-50% , -50%);}
+    .subPage .cancerPage dl dd{color: #751986; font-size: 24px; line-height: 1.5;}
+
+     /* pipeline - 암 - 면역항암제 */
+    .subPage .cancerPage .immunArea > div:nth-of-type(1) .imgBox{background-image: url('../images/M-pipeline-cancer-img01.png'); height: 1163px;}
+    .subPage .cancerPage .immunArea > div:nth-of-type(2) .imgBox{background-image: url('../images/M-pipeline-cancer-img02.png'); height: 1106px;}
+    /* pipeline - 암 - 면역항암제 */
+    .subPage .cancerPage .develoArea .imgBox{background-image: url('../images/M-pipeline-cancer-img03.png'); height: 1322px;}
+    /* pipeline - 암 - 면역항암제 */
+    .subPage .cancerPage .solutionArea .imgBox{background-image: url('../images/M-pipeline-cancer-img04.png'); height: 1903px;}
 
 
     /* 직업 */
