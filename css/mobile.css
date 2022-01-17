@@ -118,7 +118,7 @@
     header > div nav ul{display: flex; flex-direction: column;}
     header > div nav ul li{height: 100%;}
     header > div nav ul li a{height: 100%; display: flex; align-items: center; font-size: 3rem; line-height: 2; font-weight: 500;}
-    header > div > a{display: none; width: 2.750rem; line-height: 2.750rem; background-color: black; border-radius: 100%; font-size: 0.938rem; font-weight: 500; color: white; text-align: center;}
+    header > div > a{display: none; width: 3.750rem; line-height: 3.750rem; background-color: black; border-radius: 100%; font-size: 1.5rem; font-weight: 500; color: white; text-align: center; position: fixed; right: 4rem; bottom: 4rem;}
 
     /* 메인 화이트 해더 */
     header.whiteCase:not(.active){background-color: transparent; border: none;}
@@ -133,10 +133,12 @@
     header.whiteCase:hover div > a{background-color: black; color: white;}
     header.whiteCase:hover > div div span{background-color: black;}
     /* 메인 메뉴 active */
+    body.active{overflow: hidden;}
     header.active > div nav{left: 0;}
     header.active > div div span:nth-child(1){transform: translateY(0.938rem) rotate(45deg);}
     header.active > div div span:nth-child(2){opacity: 0;}
     header.active > div div span:nth-child(3){transform: translateY(-0.938rem) rotate(135deg);}
+    header.active > div > a{display: block; z-index: 10;}
 
 
     /* 푸터 */
