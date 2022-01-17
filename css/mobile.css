@@ -111,26 +111,32 @@
     header > div{height: 100%; display: flex; justify-content: space-between; align-items: center;}
     header > div h1{width: 10.688rem; height: 2.688rem;}
     header > div h1 a{display: block; height: 100%; text-indent: -9999px; background-image: url('../images/logo.png'); background-repeat: no-repeat; background-position: center; background-size: cover; transition: 0.5s background-image;}
-    header > div div{width: 2.813rem;}
-    header > div div span{display: block; height: 0.188rem; background-color: black;}
+    header > div div{width: 2.813rem; position: relative; z-index: 10;}
+    header > div div span{display: block; height: 0.188rem; background-color: black; transition: 0.5s;}
     header > div div span:not(:last-child){margin-bottom: 0.750rem;}
-    header > div nav{display: none; position: absolute; left: 50%; top: 0; height: 100%; transform: translateX(-50%);}
-    header > div nav ul{height: 100%; display: flex;}
+    header > div nav{ position: fixed; left: 100%; top: 0; width: 100%; height: 100%; background-color: white; display: flex; justify-content: center; align-items: center; transition: 0.5s left;}
+    header > div nav ul{display: flex; flex-direction: column;}
     header > div nav ul li{height: 100%;}
-    header > div nav ul li a{height: 100%; display: flex; align-items: center; padding: 0 3.125rem; font-size: 1.375rem; font-weight: 500;}
+    header > div nav ul li a{height: 100%; display: flex; align-items: center; font-size: 3rem; line-height: 2; font-weight: 500;}
     header > div > a{display: none; width: 2.750rem; line-height: 2.750rem; background-color: black; border-radius: 100%; font-size: 0.938rem; font-weight: 500; color: white; text-align: center;}
 
     /* 메인 화이트 해더 */
-    header.whiteCase{background-color: transparent; border: none;}
-    header.whiteCase > div h1 a{background-image: url('../images/logo_white.png');}
-    header.whiteCase > div nav ul li a{color: white;}
-    header.whiteCase > div > a{background-color: rgba(255, 255, 255, 0.6); color: #100646;}
-    header.whiteCase > div div span{background-color: white;}
+    header.whiteCase:not(.active){background-color: transparent; border: none;}
+    header.whiteCase:not(.active) > div h1 a{background-image: url('../images/logo_white.png');}
+    header.whiteCase:not(.active) > div nav ul li a{color: white;}
+    header.whiteCase:not(.active) > div > a{background-color: rgba(255, 255, 255, 0.6); color: #100646;}
+    header.whiteCase:not(.active) > div div span{background-color: white;}
     /* 메인 화이트 해더 호버*/
     header.whiteCase:hover{background-color: white; border: none;}
     header.whiteCase:hover div h1 a{background-image: url('../images/logo.png');}
     header.whiteCase:hover div nav ul li a{color: black;}
     header.whiteCase:hover div > a{background-color: black; color: white;}
+    header.whiteCase:hover > div div span{background-color: black;}
+    /* 메인 메뉴 active */
+    header.active > div nav{left: 0;}
+    header.active > div div span:nth-child(1){transform: translateY(0.938rem) rotate(45deg);}
+    header.active > div div span:nth-child(2){opacity: 0;}
+    header.active > div div span:nth-child(3){transform: translateY(-0.938rem) rotate(135deg);}
 
 
     /* 푸터 */
