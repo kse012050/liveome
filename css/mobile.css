@@ -299,6 +299,9 @@
 
 
     /* 직업 */
+    /* 직업 - 인재상 */
+    .careersPage .talentArea .imgBox{background-image: url('../images/M-careers-talent-img01.png'); height: 87.500rem;}
+
     /* 직업 - 제도 또는 근무환경 */
     .policyPage .policyArea{display: flex; flex-wrap: wrap; text-align: center;}
     .policyPage .policyArea li{width: calc(100% / 2); height: 18.125rem; padding: 0.625rem; box-sizing: border-box;}
